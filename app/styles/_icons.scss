@@ -1,0 +1,12 @@
+@import "mixins/mixins";
+
+.icon {
+  &.icon-logo.white {
+    $urlIconLogo: 'images/logo-white.png';
+    @include retina-image($urlIconLogo, $urlIconLogo, 250px, 38px);
+  }
+  &.icon-arrow-down.white {
+    $urlIconLogo: 'images/icon-arrow-down-white.png';
+    @include retina-image($urlIconLogo, $urlIconLogo, 52px, 31px);
+  }
+}

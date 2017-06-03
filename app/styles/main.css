@@ -145,5 +145,63 @@
   font-weight: 700;
   src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url(https://fonts.gstatic.com/s/robotocondensed/v13/b9QBgL0iMZfDSpmcXcE8nHm2hrkyco9jQ3NKMXpgOBg.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+body {
+  font-family: 'Roboto Condensed';
+  font-size: 12px;
+  line-height: 100%; }
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100px; }
+
+.block {
+  width: 100%;
+  float: left; }
+
+.block--first-about {
+  background-image: url("../images/bg-block--first-about.jpg");
+  height: 100vh;
+  padding-top: 100px; }
+
+.block--block-two {
+  background-image: url("../images/bg1.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+.block--block-three {
+  background-image: url("../images/bg2.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+.block--block-four {
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  height: 100vh; }
+
+.icon.icon-logo.white {
+  background-image: url("images/logo-white.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 250px;
+  height: 38px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-logo.white {
+      background-image: url("images/logo-white.png");
+      background-size: 250px 38px;
+      background-repeat: no-repeat; } }
+.icon.icon-arrow-down.white {
+  background-image: url("images/icon-arrow-down-white.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 52px;
+  height: 31px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-arrow-down.white {
+      background-image: url("images/icon-arrow-down-white.png");
+      background-size: 52px 31px;
+      background-repeat: no-repeat; } }
 
 /*# sourceMappingURL=main.css.map */

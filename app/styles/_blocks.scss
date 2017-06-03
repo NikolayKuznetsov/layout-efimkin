@@ -1,0 +1,39 @@
+@import "mixins/mixins";
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100px;
+}
+
+.block {
+  width: 100%;
+  float: left;
+}
+
+.block--first-about {
+  background-image: url("../images/bg-block--first-about.jpg");
+  height: 100vh;
+
+  padding-top: 100px;
+}
+
+.block--block-two {
+  background-image: url("../images/bg1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.block--block-three {
+  background-image: url("../images/bg2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.block--block-four {
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  height: 100vh;
+}
