@@ -8,6 +8,11 @@
     font-weight: 600;
     line-height: 100%;
     color: #fff;
+    @include box-shadow(0, 3px, 10px, rgba(0, 87, 185, 0.3));
+    &:hover {
+      background-color: #0057B9;
+      @include box-shadow(0, 3px, 10px, rgba(0, 87, 185, 0.5));
+    }
   }
   &.btn-sm {
     padding: 16px 20px;
