@@ -499,7 +499,7 @@ a {
   .block--block-two .box-text {
     background-color: #fff;
     width: 75%;
-    padding: 50px 48px; }
+    padding: 80px 48px 50px; }
     .block--block-two .box-text .title {
       font-family: 'Roboto Condensed', 'Roboto', sans-serif;
       font-size: 48px;
@@ -514,7 +514,8 @@ a {
       line-height: 125%;
       text-align: center; }
     .block--block-two .box-text.last {
-      background-color: #F0F4F7; }
+      background-color: #F0F4F7;
+      padding-top: 40px; }
       .block--block-two .box-text.last .title {
         font-size: 32px;
         color: #094ca5;
@@ -560,11 +561,24 @@ a {
         text-align: center;
         float: left; }
 
+.block--block-two .title,
+.block--block-three .title {
+  font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #094ca5;
+  letter-spacing: -1px; }
+
 .block--block-three {
   background-image: url("../images/bg2.jpg");
   background-size: cover;
   height: 100vh;
   min-height: 638px; }
+  .block--block-three .description {
+    font-size: 18px;
+    line-height: 100%;
+    color: #000; }
 
 .block--block-four {
   background-image: url("../images/bg3.jpg");

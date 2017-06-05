@@ -7,15 +7,21 @@
   .header .phone-info .phone-links, .header .phone-info .email {
     font-size: 13px; }
 
+  .block--block-two .title,
+  .block--block-three .title {
+    font-size: 40px; }
+
   .block--block-two .box-text {
-    padding: 40px 48px; }
+    padding: 70px 48px 40px 48px; }
     .block--block-two .box-text .title {
       font-size: 40px;
       margin-bottom: 20px; }
     .block--block-two .box-text .description {
       font-size: 15px; }
-    .block--block-two .box-text.last .title {
-      font-size: 28px;
-      margin-bottom: 10px; } }
+    .block--block-two .box-text.last {
+      padding-top: 34px; }
+      .block--block-two .box-text.last .title {
+        font-size: 28px;
+        margin-bottom: 10px; } }
 
 /*# sourceMappingURL=responsive.css.map */
