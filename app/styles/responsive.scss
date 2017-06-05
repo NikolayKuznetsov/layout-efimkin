@@ -1,0 +1,25 @@
+@import "mixins/mixins";
+
+@media (max-width: 1366px) {
+  .header {
+    .menu {
+      .items {
+        .item {
+          a {
+            font-size: 14px;
+            padding: 5px 6px;
+          }
+        }
+      }
+    }
+    .phone-info {
+      .phone-number {
+        font-size: 18px;
+      }
+      .phone-links, .email {
+        font-size: 13px;
+      }
+    }
+  }
+}
+

@@ -1,1 +1,18 @@
 @import "mixins/mixins";
+
+.btn {
+  @include border-radius(3px);
+  &.btn-blue {
+    background-color: #2372dc;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #fff;
+  }
+  &.btn-sm {
+    padding: 16px 20px;
+  }
+  &.btn-xs {
+    padding: 12px 16px;
+  }
+}

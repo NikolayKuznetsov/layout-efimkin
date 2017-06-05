@@ -1,9 +1,12 @@
 @import "font/fonts";
 
 body {
-  font-family: 'Roboto Condensed';
+  font-family: 'Lato', 'Roboto', sans-serif;
   font-size: 12px;
   line-height: 100%;
+}
+a {
+  text-decoration: none;
 }
 
 @import "blocks";

@@ -1,0 +1,10 @@
+@media (max-width: 1366px) {
+  .header .menu .items .item a {
+    font-size: 14px;
+    padding: 5px 6px; }
+  .header .phone-info .phone-number {
+    font-size: 18px; }
+  .header .phone-info .phone-links, .header .phone-info .email {
+    font-size: 13px; } }
+
+/*# sourceMappingURL=responsive.css.map */

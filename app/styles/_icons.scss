@@ -1,12 +1,56 @@
 @import "mixins/mixins";
 
 .icon {
-  &.icon-logo.white {
-    $urlIconLogo: 'images/logo-white.png';
-    @include retina-image($urlIconLogo, $urlIconLogo, 250px, 38px);
+  &.icon-logo {
+    &.white {
+      $urlIconLogoWhite: '../images/logo-white.png';
+      @include retina-image($urlIconLogoWhite, $urlIconLogoWhite, 250px, 38px);
+    }
+    &.black {
+      $urlIconLogoBlack: '../images/logo-black.png';
+      @include retina-image($urlIconLogoBlack, $urlIconLogoBlack, 250px, 38px);
+    }
   }
   &.icon-arrow-down.white {
-    $urlIconLogo: 'images/icon-arrow-down-white.png';
+    $urlIconLogo: '../images/icon-arrow-down-white.png';
     @include retina-image($urlIconLogo, $urlIconLogo, 52px, 31px);
+  }
+
+  &.icon-social-link {
+    display: block;
+    width: 35px;
+    height: 32px;
+    background: url('../images/icons-social.png') 0 0 no-repeat;
+    @include transition('all 0.4s ease-in-ou');
+    &:hover {
+      @include transition('all 0.4s ease-in-ou');
+    }
+    &.black {
+      background-image: url('../images/icons-social-black.png');
+    }
+    &.vk {
+      background-position: 0 4px;
+      &:hover {
+        background-position: 0 -36px;
+      }
+    }
+    &.fb {
+      background-position: -33px 2px;
+      &:hover {
+        background-position: -33px -38px;
+      }
+    }
+    &.ig {
+      background-position: -67px 3px;
+      &:hover {
+        background-position: -67px -37px;
+      }
+    }
+    &.yo {
+      background-position: -102px 3px;
+      &:hover {
+        background-position: -102px -37px;
+      }
+    }
   }
 }
