@@ -234,10 +234,60 @@ $minHeight: 638px;
   background-size: cover;
   height: 100vh;
   min-height: $minHeight;
+  padding-top: 150px;
+  .text-box {
+    width: 60%;
+    float: right;
+  }
   .description {
     font-size: 18px;
     line-height: 100%;
     color: #474c53;
+    margin-bottom: 20px;
+  }
+  .title {
+    margin-bottom: 36px;
+  }
+  .sub-title {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 100%;
+    color: #094ca5;
+  }
+  .btn {
+    margin: 36px 0;
+    width: 290px;
+    height: 50px;
+  }
+  .circle-items {
+    .circle-item {
+      background-color: #004BA9;
+      width: 154px;
+      height: 154px;
+      color: #fff;
+      float: left;
+      margin-right: 20px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:last-child {
+        margin-right: 0;
+      }
+      @include border-radius(50%);
+      .icon-item {
+        margin-bottom: 10px;
+        height: 55px;
+      }
+      .title-text {
+        font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: -1px;
+        text-align: center;
+      }
+    }
   }
 }
 
@@ -246,4 +296,5 @@ $minHeight: 638px;
   background-size: cover;
   height: 100vh;
   min-height: $minHeight;
+
 }

@@ -22,6 +22,11 @@
       padding-top: 34px; }
       .block--block-two .box-text.last .title {
         font-size: 28px;
-        margin-bottom: 10px; } }
+        margin-bottom: 10px; }
+
+  .block--block-three {
+    padding-top: 50px; }
+    .block--block-three .description {
+      margin-bottom: 10px; } }
 
 /*# sourceMappingURL=responsive.css.map */

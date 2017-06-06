@@ -1,16 +1,31 @@
 @import "mixins/mixins";
 
 .btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 100%;
   @include border-radius(3px);
+  i {
+    &.icon {
+      display: inline-block !important;
+      vertical-align: inherit;
+      margin-right: 5px;
+    }
+  }
   &.btn-blue {
     background-color: #2372dc;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 100%;
     color: #fff;
     @include box-shadow(0, 3px, 10px, rgba(0, 87, 185, 0.3));
     &:hover {
       background-color: #0057B9;
+      @include box-shadow(0, 3px, 10px, rgba(0, 87, 185, 0.5));
+    }
+  }
+  &.btn-white {
+    background-color: #fff;
+    color: #2372dc;
+    @include box-shadow(0, 3px, 10px, rgba(0, 87, 185, 0.3));
+    &:hover {
       @include box-shadow(0, 3px, 10px, rgba(0, 87, 185, 0.5));
     }
   }

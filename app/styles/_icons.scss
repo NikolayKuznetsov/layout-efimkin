@@ -15,6 +15,22 @@
     $urlIconLogo: '../images/icon-arrow-down-white.png';
     @include retina-image($urlIconLogo, $urlIconLogo, 52px, 31px);
   }
+  &.icon-book.blue {
+    $urlIconBookBlue: '../images/icon-book-blue.png';
+    @include retina-image($urlIconBookBlue, $urlIconBookBlue, 19px, 24px);
+  }
+  &.icon-radio.white {
+    $urlIconRadioWhite: '../images/icon-radio-white.png';
+    @include retina-image($urlIconRadioWhite, $urlIconRadioWhite, 49px, 46px);
+  }
+  &.icon-duet.white {
+    $urlIconDuetWhite: '../images/icon-duet-white.png';
+    @include retina-image($urlIconDuetWhite, $urlIconDuetWhite, 42px, 55px);
+  }
+  &.icon-i-gland.white {
+    $urlIconIGlandWhite: '../images/icon-i-gland-white.png';
+    @include retina-image($urlIconIGlandWhite, $urlIconIGlandWhite, 48px, 46px);
+  }
 
   &.icon-social-link {
     display: block;
@@ -35,21 +51,24 @@
       }
     }
     &.fb {
-      background-position: -33px 2px;
+      background-position: -41px 2px;
+      width: 22px;
       &:hover {
-        background-position: -33px -38px;
+        background-position: -41px -38px;
       }
     }
     &.ig {
       background-position: -67px 3px;
+      width: 31px;
       &:hover {
         background-position: -67px -37px;
       }
     }
     &.yo {
-      background-position: -102px 3px;
+      background-position: -106px 3px;
+      width: 30px;
       &:hover {
-        background-position: -102px -37px;
+        background-position: -106px -37px;
       }
     }
   }
