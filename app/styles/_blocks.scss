@@ -218,7 +218,8 @@ $minHeight: 638px;
 }
 
 .block--block-two,
-.block--block-three {
+.block--block-three,
+.block--block-four {
   .title {
     font-family: 'Roboto Condensed', 'Roboto', sans-serif;
     font-size: 48px;
@@ -296,5 +297,50 @@ $minHeight: 638px;
   background-size: cover;
   height: 100vh;
   min-height: $minHeight;
-
+  .box {
+    background-color: #fff;
+    width: 60%;
+    padding: 60px 80px;
+    float: left;
+  }
+  .title {
+    margin-bottom: 12px;
+  }
+  .description {
+    font-size: 18px;
+    line-height: 100%;
+    color: #474c53;
+    margin-bottom: 20px;
+  }
+  .btn {
+    height: 50px;
+  }
+  .form-box {
+    .form-group {
+      margin-bottom: 13px;
+    }
+  }
+  .link {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 12px;
+      font-size: 16px;
+      color: #2372dc;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    i {
+      display: inline-block !important;
+      margin-right: 10px;
+    }
+    &.last {
+      a {
+        margin-bottom: 0;
+      }
+    }
+  }
 }

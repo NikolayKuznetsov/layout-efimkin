@@ -1,1 +1,22 @@
 @import "mixins/mixins";
+
+.form-control {
+  background-color: #F1F1F1;
+  border: 1px solid #F1F1F1;
+  height: 54px;
+  font-size: 20px;
+
+  @include box-shadow-none();
+  @include border-radius(5px);
+  &:focus {
+    border: 1px solid #F1F1F1;
+    @include box-shadow-none();
+  }
+}
+
+textarea {
+  &.form-control {
+    height: 115px;
+    resize: none;
+  }
+}
