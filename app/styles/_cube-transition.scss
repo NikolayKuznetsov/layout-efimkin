@@ -1,3 +1,9 @@
+body {
+  &.cube-transition {
+    overflow: hidden;
+    height: 100%;
+  }
+}
 
 #cubeTransition {
   position: relative;
@@ -24,11 +30,10 @@
   font-size: 5em;
   color: #fff;
   visibility: hidden;
-  transition:opacity 5ms;
+  transition: opacity 5ms;
 }
 
-
-.visible{
+.visible {
   visibility: visible !important;
 }
 
@@ -145,6 +150,7 @@
     transform: translateY(-50%) translateZ(-200px) rotateX(45deg);
   }
 }
+
 @-webkit-keyframes rotateCubeBottomIn {
   0% {
     opacity: .3;
@@ -172,14 +178,14 @@
   height: 20px;
   border-radius: 50%;
   margin: 0 3px;
-  background: rgba( 255, 255, 255, 0.5 );
-  box-shadow: 0px 0px 4px rgba( 0, 0, 0, 0.2 );
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  -webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 #bullets li:hover {
-  background: rgba( 255, 255, 255, 0.8 );
+  background: rgba(255, 255, 255, 0.8);
 }
 
 #bullets li.active {

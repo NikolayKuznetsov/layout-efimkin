@@ -670,6 +670,10 @@ a {
   .block--block-four .link.last a {
     margin-bottom: 0; }
 
+body.cube-transition {
+  overflow: hidden;
+  height: 100%; }
+
 #cubeTransition {
   position: relative;
   width: 100%;

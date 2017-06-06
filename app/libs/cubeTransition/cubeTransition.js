@@ -5,6 +5,7 @@
         next = 1,
         outClass, inClass, onGoing = false;
     $('#cubeTransition>div:eq(0)').addClass('visible');
+    $('body').addClass('cube-transition');
 
     for (i = 0; i < length; i++) {
         var bullet = $("<li></li>");
