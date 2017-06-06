@@ -630,11 +630,19 @@ a {
   background-size: cover;
   height: 100vh;
   min-height: 638px; }
+  .block--block-four .container-box, .block--block-four .box {
+    height: 100%; }
   .block--block-four .box {
-    background-color: #fff;
+    background-color: #F0F4F7;
     width: 60%;
-    padding: 60px 80px;
+    height: 100%;
     float: left; }
+  .block--block-four .form-box {
+    background-color: #fff;
+    padding: 60px 80px; }
+  .block--block-four .form-info-box {
+    background-color: #F0F4F7;
+    padding: 40px 80px; }
   .block--block-four .title {
     margin-bottom: 12px; }
   .block--block-four .description {
@@ -820,6 +828,17 @@ textarea.form-control {
     .icon.icon-i-gland.white {
       background-image: url("../images/icon-i-gland-white.png");
       background-size: 48px 46px;
+      background-repeat: no-repeat; } }
+.icon.icon-link.white {
+  background-image: url("../images/icon-link-white.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 26px;
+  height: 26px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-link.white {
+      background-image: url("../images/icon-link-white.png");
+      background-size: 26px 26px;
       background-repeat: no-repeat; } }
 .icon.icon-pdf-file {
   background-image: url("../images/icon-pdf-file.png");

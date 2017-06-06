@@ -31,6 +31,10 @@
     $urlIconIGlandWhite: '../images/icon-i-gland-white.png';
     @include retina-image($urlIconIGlandWhite, $urlIconIGlandWhite, 48px, 46px);
   }
+  &.icon-link.white {
+    $urlIconLinkWhite: '../images/icon-link-white.png';
+    @include retina-image($urlIconLinkWhite, $urlIconLinkWhite, 26px, 26px);
+  }
   &.icon-pdf-file {
     $urlIconPDFFile: '../images/icon-pdf-file.png';
     @include retina-image($urlIconPDFFile, $urlIconPDFFile, 27px, 28px);

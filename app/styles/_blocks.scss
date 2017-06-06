@@ -297,11 +297,22 @@ $minHeight: 638px;
   background-size: cover;
   height: 100vh;
   min-height: $minHeight;
+  .container-box, .box {
+    height: 100%;
+  }
   .box {
-    background-color: #fff;
+    background-color: #F0F4F7;
     width: 60%;
-    padding: 60px 80px;
+    height: 100%;
     float: left;
+  }
+  .form-box {
+    background-color: #fff;
+    padding: 60px 80px;
+  }
+  .form-info-box {
+    background-color: #F0F4F7;
+    padding: 40px 80px;
   }
   .title {
     margin-bottom: 12px;
