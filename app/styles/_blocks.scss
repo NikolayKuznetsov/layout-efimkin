@@ -397,6 +397,12 @@ $minHeight: 638px;
     height: 100%;
     float: left;
   }
+  .form-box, .form-info-box {
+    > * {
+      position: relative;
+      z-index: 2;
+    }
+  }
   .form-box {
     background-color: #fff;
     padding: 60px 80px;
@@ -443,6 +449,64 @@ $minHeight: 638px;
       a {
         margin-bottom: 0;
       }
+    }
+  }
+  .img-element {
+    z-index: 1;
+    &.img-element-1 {
+      top: 75px;
+      left: 1%;
+      max-width: 100px;
+    }
+    &.img-element-2 {
+      top: 27%;
+      left: 4%;
+      max-width: 85px;
+    }
+    &.img-element-3 {
+      top: 50%;
+      left: 3%;
+      max-width: 56px;
+    }
+    &.img-element-4 {
+      bottom: 15%;
+      left: 7%;
+      max-width: 55px;
+    }
+    &.img-element-5 {
+      top: 75px;
+      right: 33%;
+      max-width: 84px;
+    }
+    &.img-element-6 {
+      top: 23%;
+      right: 35%;
+      max-width: 100px;
+    }
+    &.img-element-7 {
+      bottom: 0;
+      right: 33%;
+      max-width: 150px;
+    }
+    &.img-element-8 {
+      top: 22%;
+      right: 12%;
+      max-width: 60px;
+    }
+    &.img-element-9 {
+      bottom: 0;
+      right: 12%;
+      max-width: 400px;
+    }
+    &.img-element-10 {
+      top: 37%;
+      right: 6%;
+      max-width: 112px;
+    }
+    &.img-element-11 {
+      bottom: 2%;
+      right: 1%;
+      max-width: 240px;
     }
   }
 }

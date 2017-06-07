@@ -710,6 +710,9 @@ a {
     width: 60%;
     height: 100%;
     float: left; }
+  .block--block-four .form-box > *, .block--block-four .form-info-box > * {
+    position: relative;
+    z-index: 2; }
   .block--block-four .form-box {
     background-color: #fff;
     padding: 60px 80px; }
@@ -742,6 +745,52 @@ a {
     margin-right: 10px; }
   .block--block-four .link.last a {
     margin-bottom: 0; }
+  .block--block-four .img-element {
+    z-index: 1; }
+    .block--block-four .img-element.img-element-1 {
+      top: 75px;
+      left: 1%;
+      max-width: 100px; }
+    .block--block-four .img-element.img-element-2 {
+      top: 27%;
+      left: 4%;
+      max-width: 85px; }
+    .block--block-four .img-element.img-element-3 {
+      top: 50%;
+      left: 3%;
+      max-width: 56px; }
+    .block--block-four .img-element.img-element-4 {
+      bottom: 15%;
+      left: 7%;
+      max-width: 55px; }
+    .block--block-four .img-element.img-element-5 {
+      top: 75px;
+      right: 33%;
+      max-width: 84px; }
+    .block--block-four .img-element.img-element-6 {
+      top: 23%;
+      right: 35%;
+      max-width: 100px; }
+    .block--block-four .img-element.img-element-7 {
+      bottom: 0;
+      right: 33%;
+      max-width: 150px; }
+    .block--block-four .img-element.img-element-8 {
+      top: 22%;
+      right: 12%;
+      max-width: 60px; }
+    .block--block-four .img-element.img-element-9 {
+      bottom: 0;
+      right: 12%;
+      max-width: 400px; }
+    .block--block-four .img-element.img-element-10 {
+      top: 37%;
+      right: 6%;
+      max-width: 112px; }
+    .block--block-four .img-element.img-element-11 {
+      bottom: 2%;
+      right: 1%;
+      max-width: 240px; }
 
 body.cube-transition {
   overflow: hidden;
