@@ -1,11 +1,16 @@
+@media (max-width: 1920px) {
+  .header {
+    padding: 0 24px; } }
 @media (max-width: 1366px) {
-  .header .menu .items .item a {
-    font-size: 14px;
-    padding: 5px 6px; }
-  .header .phone-info .phone-number {
-    font-size: 18px; }
-  .header .phone-info .phone-links, .header .phone-info .email {
-    font-size: 13px; }
+  .header {
+    padding: 0 8px; }
+    .header .menu .items .item a {
+      font-size: 14px;
+      padding: 5px 6px; }
+    .header .phone-info .phone-number {
+      font-size: 18px; }
+    .header .phone-info .phone-links, .header .phone-info .email {
+      font-size: 13px; }
 
   .block--block-two .title,
   .block--block-three .title {
@@ -25,13 +30,19 @@
         margin-bottom: 10px; }
 
   .block--block-three {
-    padding-top: 50px; }
+    padding-top: 75px; }
+    .block--block-three .title {
+      margin-bottom: 20px; }
     .block--block-three .description {
       margin-bottom: 10px; }
+    .block--block-three .btn {
+      margin: 20px 0; }
 
-  .block--block-four .form-box {
-    padding: 40px 80px; }
-  .block--block-four .form-info-box {
-    padding: 20px 80px; } }
+  .block--block-four {
+    padding-top: 30px; }
+    .block--block-four .form-box {
+      padding: 40px 80px; }
+    .block--block-four .form-info-box {
+      padding: 20px 80px; } }
 
 /*# sourceMappingURL=responsive.css.map */

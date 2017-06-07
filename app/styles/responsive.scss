@@ -1,7 +1,12 @@
 @import "mixins/mixins";
-
+@media (max-width: 1920px) {
+  .header {
+    padding: 0 24px;
+  }
+}
 @media (max-width: 1366px) {
   .header {
+    padding: 0 8px;
     .menu {
       .items {
         .item {
@@ -47,12 +52,19 @@
     }
   }
   .block--block-three {
-    padding-top: 50px;
+    padding-top: 75px;
+    .title {
+      margin-bottom: 20px;
+    }
     .description {
       margin-bottom: 10px;
     }
+    .btn {
+      margin: 20px 0;
+    }
   }
   .block--block-four {
+    padding-top: 30px;
     .form-box {
       padding: 40px 80px;
     }
