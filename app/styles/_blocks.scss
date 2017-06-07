@@ -220,11 +220,6 @@ $minHeight: 638px;
     }
   }
   .img-element {
-    position: absolute;
-    //@include transition('transform .4s ease');
-    img {
-      max-width: 100%;
-    }
     &.img-element-1 {
       top: 75px;
       left: -10px;
@@ -270,6 +265,12 @@ $minHeight: 638px;
     color: #094ca5;
     letter-spacing: -1px;
   }
+  .img-element {
+    position: absolute;
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
 .block--block-three {
@@ -281,6 +282,10 @@ $minHeight: 638px;
   .text-box {
     width: 60%;
     float: right;
+    > * {
+      position: relative;
+      z-index: 2;
+    }
   }
   .description {
     font-size: 18px;
@@ -330,6 +335,50 @@ $minHeight: 638px;
         letter-spacing: -1px;
         text-align: center;
       }
+    }
+  }
+  .img-element {
+    &.img-element-1 {
+      top: 21%;
+      left: 12%;
+      max-width: 82px;
+      z-index: 1;
+    }
+    &.img-element-2 {
+      bottom: 9%;
+      left: 10%;
+      max-width: 280px;
+    }
+    &.img-element-3 {
+      top: 20%;
+      left: 15%;
+      max-width: 250px;
+    }
+    &.img-element-4 {
+      top: 15%;
+      left: 25%;
+      max-width: 150px;
+      z-index: -1;
+    }
+    &.img-element-5 {
+      bottom: 25%;
+      left: 28%;
+      max-width: 170px;
+    }
+    &.img-element-6 {
+      top: 21%;
+      right: 18%;
+      max-width: 130px;
+    }
+    &.img-element-7 {
+      top: 16%;
+      right: 7%;
+      max-width: 110px;
+    }
+    &.img-element-8 {
+      top: 55%;
+      right: 4%;
+      max-width: 100px;
     }
   }
 }
