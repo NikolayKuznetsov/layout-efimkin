@@ -807,27 +807,27 @@ html, body {
       right: 1%;
       max-width: 240px; }
 
-.block--blog {
+.block--blog, .block--reviews {
   padding: 80px 0 20px; }
-  .block--blog .video-container {
+  .block--blog .video-container, .block--reviews .video-container {
     position: absolute;
     left: 0;
     top: 76px;
     right: 0;
     bottom: 0;
     z-index: -1; }
-    .block--blog .video-container video {
+    .block--blog .video-container video, .block--reviews .video-container video {
       width: 100%;
       min-height: 100%; }
-  .block--blog .list-article .item-article {
+  .block--blog .list-article .item-article, .block--reviews .list-article .item-article {
     width: 100%;
     float: left;
     margin-bottom: 40px;
     padding-right: 150px; }
-    .block--blog .list-article .item-article .image {
+    .block--blog .list-article .item-article .image, .block--reviews .list-article .item-article .image {
       width: 226px;
       float: left; }
-      .block--blog .list-article .item-article .image .circle {
+      .block--blog .list-article .item-article .image .circle, .block--reviews .list-article .item-article .image .circle {
         width: 186px;
         height: 186px;
         display: block;
@@ -838,16 +838,16 @@ html, body {
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
         border-radius: 50%; }
-        .block--blog .list-article .item-article .image .circle img {
+        .block--blog .list-article .item-article .image .circle img, .block--reviews .list-article .item-article .image .circle img {
           min-width: 100%;
           min-height: 100%; }
-    .block--blog .list-article .item-article .content {
+    .block--blog .list-article .item-article .content, .block--reviews .list-article .item-article .content {
       width: calc(100% - 226px);
       float: left; }
-      .block--blog .list-article .item-article .content .title, .block--blog .list-article .item-article .content .description, .block--blog .list-article .item-article .content .action {
+      .block--blog .list-article .item-article .content .title, .block--blog .list-article .item-article .content .description, .block--blog .list-article .item-article .content .action, .block--reviews .list-article .item-article .content .title, .block--reviews .list-article .item-article .content .description, .block--reviews .list-article .item-article .content .action {
         width: 100%;
         float: left; }
-      .block--blog .list-article .item-article .content .title {
+      .block--blog .list-article .item-article .content .title, .block--reviews .list-article .item-article .content .title {
         font-family: 'Roboto Condensed', 'Roboto', sans-serif;
         font-size: 24px;
         font-weight: 500;
@@ -855,12 +855,19 @@ html, body {
         color: #094ca5;
         letter-spacing: -1px;
         margin-bottom: 20px; }
-      .block--blog .list-article .item-article .content .description {
+      .block--blog .list-article .item-article .content .name, .block--reviews .list-article .item-article .content .name {
+        font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 100%;
+        color: #3a455e;
+        margin-bottom: 10px; }
+      .block--blog .list-article .item-article .content .description, .block--reviews .list-article .item-article .content .description {
         color: #3a455e;
         font-size: 19px;
         line-height: 125%;
         margin-bottom: 40px; }
-      .block--blog .list-article .item-article .content .action {
+      .block--blog .list-article .item-article .content .action, .block--reviews .list-article .item-article .content .action {
         margin-bottom: 16px; }
 
 .footer {
