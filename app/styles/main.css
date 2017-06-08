@@ -402,6 +402,8 @@ a {
     background-color: #fff; }
     .header.scrolled .menu .items .item a {
       color: #000; }
+      .header.scrolled .menu .items .item a:hover {
+        border-color: #000; }
     .header.scrolled .phone-info {
       color: #000; }
       .header.scrolled .phone-info .phone-links, .header.scrolled .phone-info .email {
@@ -460,6 +462,16 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-start; }
+  .block--first-about .video-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; }
+    .block--first-about .video-container video {
+      width: 100%;
+      min-height: 100%; }
   .block--first-about .popup-info {
     background-color: rgba(45, 79, 125, 0.8);
     padding: 60px 48px;
