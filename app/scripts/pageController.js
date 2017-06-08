@@ -1,7 +1,22 @@
 $(function () {
 
-    elementTranslate3dHome();
 
+
+    var headerHeight = $('header').offset().top;
+
+    $(window).scroll(function(){
+        if( $(window).scrollTop() > headerHeight ) {
+            $('header').addClass('scrolled');
+            $('header .logo .icon-logo').addClass('black');
+            $('header .icon-social-link').addClass('black');
+        } else {
+            $('header').removeClass('scrolled');
+            $('header .logo .icon-logo').removeClass('black');
+            $('header .icon-social-link').removeClass('black');
+        }
+    });
+
+    elementTranslate3dHome();
 
 
     function elementTranslate3dHome() {

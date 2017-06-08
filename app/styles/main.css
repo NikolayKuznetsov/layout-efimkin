@@ -870,6 +870,12 @@ html, body {
       .block--blog .list-article .item-article .content .action, .block--reviews .list-article .item-article .content .action {
         margin-bottom: 16px; }
 
+.block--corporate-first {
+  background-color: #000;
+  height: 100vh;
+  min-height: 638px;
+  padding-top: 76px; }
+
 .footer {
   background-color: #D5D8E5;
   width: 100%;
@@ -909,9 +915,12 @@ html, body {
     padding-top: 78px;
     padding-bottom: 20px;
     margin-bottom: 88px;
-    min-height: 100%;
+    min-height: calc(100% - 88px);
     width: 100%;
     float: left; }
+  .wrapper.page-scroll .context {
+    padding-top: 0;
+    padding-bottom: 0; }
 
 body.cube-transition {
   overflow: hidden;

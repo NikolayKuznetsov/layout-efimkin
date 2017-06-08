@@ -602,6 +602,13 @@ html, body {
   }
 }
 
+.block--corporate-first {
+  background-color: #000;
+  height: 100vh;
+  min-height: $minHeight;
+  padding-top: 76px;
+}
+
 .footer {
   background-color: #D5D8E5;
   width: 100%;
@@ -648,8 +655,14 @@ html, body {
     padding-top: 78px;
     padding-bottom: 20px;
     margin-bottom: 88px;
-    min-height: 100%;
+    min-height: calc(100% - 88px);
     width: 100%;
     float: left;
+  }
+  &.page-scroll {
+    .context {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 }
