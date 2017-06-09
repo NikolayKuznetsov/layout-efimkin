@@ -875,6 +875,40 @@ html, body {
   height: 100vh;
   min-height: 638px; }
 
+.block--corporate-two {
+  background-image: url("../images/bg-block--corporate-two.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 1068px;
+  padding-bottom: 60px; }
+  .block--corporate-two .title {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 60px 0 50px; }
+  .block--corporate-two .list .item {
+    width: 100%;
+    float: left; }
+    .block--corporate-two .list .item.right .img, .block--corporate-two .list .item.right .text {
+      float: right; }
+    .block--corporate-two .list .item .img, .block--corporate-two .list .item .text {
+      width: 50%;
+      height: 272px;
+      float: left; }
+    .block--corporate-two .list .item .img img {
+      min-width: 100%;
+      min-height: 100%; }
+    .block--corporate-two .list .item .text {
+      background-color: rgba(0, 44, 90, 0.8);
+      font-size: 18px;
+      color: #fff;
+      text-align: center;
+      padding: 40px 36px;
+      line-height: 125%; }
+
 .slider-box,
 .slider-box .slick-list,
 .slider-box .slick-track,

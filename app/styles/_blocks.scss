@@ -608,6 +608,53 @@ html, body {
   min-height: $minHeight;
 }
 
+.block--corporate-two {
+  background-image: url("../images/bg-block--corporate-two.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 1068px;
+  padding-bottom: 60px;
+  .title {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 60px 0 50px;
+  }
+  .list {
+    .item {
+      width: 100%;
+      float: left;
+      &.right {
+        .img, .text {
+          float: right;
+        }
+      }
+      .img, .text {
+        width: 50%;
+        height: 272px;
+        float: left;
+      }
+      .img {
+        img {
+          min-width: 100%;
+          min-height: 100%;
+        }
+      }
+      .text {
+        background-color: rgba(0, 44, 90, .8);
+        font-size: 18px;
+        color: #fff;
+        text-align: center;
+        padding: 40px 36px;
+        line-height: 125%;
+      }
+    }
+  }
+}
+
 .slider-box {
   &,
   .slick-list,
