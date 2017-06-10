@@ -990,6 +990,27 @@ html, body {
         color: #353d49;
         line-height: 125%; }
 
+.block--wedding-banner {
+  background-image: url("../images/bg-banner-wedding.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 520px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .block--wedding-banner .title {
+    font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 8px; }
+  .block--wedding-banner .desc {
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 20px; }
+
 .block--gallery .col-25, .block--gallery .col-50 {
   float: left;
   height: calc(50vh - 38px);

@@ -746,6 +746,34 @@ html, body {
   }
 }
 
+.block--wedding-banner {
+  background-image: url("../images/bg-banner-wedding.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 520px;
+  text-align: center;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 100%;
+    margin-bottom: 8px;
+  }
+  .desc {
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 20px;
+  }
+  .action {
+  }
+}
+
 .block--gallery {
   .col-25, .col-50 {
     float: left;
