@@ -661,6 +661,91 @@ html, body {
   }
 }
 
+.block--wedding-two {
+  background-color: #fff;
+  min-height: $minHeight;
+  .box-text, .content-box {
+    width: 100%;
+    float: left;
+  }
+  .box-text {
+    background-color: #004572;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+    .title {
+      font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 100%;
+      margin-bottom: 20px;
+    }
+    .desc {
+      font-size: 18px;
+      line-height: 100%;
+      p {
+        margin-bottom: 5px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .content-box {
+    height: 600px;
+    .img, .context {
+      width: 50%;
+      float: left;
+      height: 600px;
+      overflow: hidden;
+    }
+    .img {
+      position: relative;
+      img {
+        min-width: 100%;
+        min-height: 600px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        @include transform('translate(-50%, -50%)');
+      }
+    }
+    .context {
+      margin: 0;
+      padding: 0;
+      .container-box {
+        width: 600px;
+        float: left;
+        padding: 80px 40px;
+      }
+      .list {
+        &.list-icon {
+          .item {
+            width: 100%;
+            float: left;
+            margin-bottom: 50px;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+          .icon, .text {
+            float: left;
+          }
+          .icon {
+            width: 76px;
+          }
+          .text {
+            width: calc(100% - 76px);
+            font-size: 18px;
+            color: #353d49;
+            line-height: 125%;
+          }
+        }
+      }
+    }
+  }
+}
+
 .block--gallery {
   .col-25, .col-50 {
     float: left;

@@ -39,6 +39,22 @@
     $urlIconPDFFile: '../images/icon-pdf-file.png';
     @include retina-image($urlIconPDFFile, $urlIconPDFFile, 27px, 28px);
   }
+  &.icon-question.blue {
+    $urlIconQuestionBlue: '../images/icon-question-blue.png';
+    @include retina-image($urlIconQuestionBlue, $urlIconQuestionBlue, 19px, 33px);
+  }
+  &.icon-group.blue {
+    $urlIconGroupBlue: '../images/icon-group-blue.png';
+    @include retina-image($urlIconGroupBlue, $urlIconGroupBlue, 33px, 31px);
+  }
+  &.icon-leading.blue {
+    $urlIconLeadingBlue: '../images/icon-leading-blue.png';
+    @include retina-image($urlIconLeadingBlue, $urlIconLeadingBlue, 20px, 43px);
+  }
+  &.icon-leading-scene.blue {
+    $urlIconLeadingSceneBlue: '../images/icon-leading-scene-blue.png';
+    @include retina-image($urlIconLeadingSceneBlue, $urlIconLeadingSceneBlue, 34px, 36px);
+  }
 
   &.icon-social-link {
     display: block;

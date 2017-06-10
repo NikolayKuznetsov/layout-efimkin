@@ -922,6 +922,74 @@ html, body {
       padding: 40px 36px;
       line-height: 125%; }
 
+.block--wedding-two {
+  background-color: #fff;
+  min-height: 638px; }
+  .block--wedding-two .box-text, .block--wedding-two .content-box {
+    width: 100%;
+    float: left; }
+  .block--wedding-two .box-text {
+    background-color: #004572;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0; }
+    .block--wedding-two .box-text .title {
+      font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      line-height: 100%;
+      margin-bottom: 20px; }
+    .block--wedding-two .box-text .desc {
+      font-size: 18px;
+      line-height: 100%; }
+      .block--wedding-two .box-text .desc p {
+        margin-bottom: 5px; }
+        .block--wedding-two .box-text .desc p:last-child {
+          margin-bottom: 0; }
+  .block--wedding-two .content-box {
+    height: 600px; }
+    .block--wedding-two .content-box .img, .block--wedding-two .content-box .context {
+      width: 50%;
+      float: left;
+      height: 600px;
+      overflow: hidden; }
+    .block--wedding-two .content-box .img {
+      position: relative; }
+      .block--wedding-two .content-box .img img {
+        min-width: 100%;
+        min-height: 600px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -khtml-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+    .block--wedding-two .content-box .context {
+      margin: 0;
+      padding: 0; }
+      .block--wedding-two .content-box .context .container-box {
+        width: 600px;
+        float: left;
+        padding: 80px 40px; }
+      .block--wedding-two .content-box .context .list.list-icon .item {
+        width: 100%;
+        float: left;
+        margin-bottom: 50px; }
+        .block--wedding-two .content-box .context .list.list-icon .item:last-child {
+          margin-bottom: 0; }
+      .block--wedding-two .content-box .context .list.list-icon .icon, .block--wedding-two .content-box .context .list.list-icon .text {
+        float: left; }
+      .block--wedding-two .content-box .context .list.list-icon .icon {
+        width: 76px; }
+      .block--wedding-two .content-box .context .list.list-icon .text {
+        width: calc(100% - 76px);
+        font-size: 18px;
+        color: #353d49;
+        line-height: 125%; }
+
 .block--gallery .col-25, .block--gallery .col-50 {
   float: left;
   height: calc(50vh - 38px);
@@ -1683,6 +1751,50 @@ textarea.form-control {
     .icon.icon-pdf-file {
       background-image: url("../images/icon-pdf-file.png");
       background-size: 27px 28px;
+      background-repeat: no-repeat; } }
+.icon.icon-question.blue {
+  background-image: url("../images/icon-question-blue.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 19px;
+  height: 33px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-question.blue {
+      background-image: url("../images/icon-question-blue.png");
+      background-size: 19px 33px;
+      background-repeat: no-repeat; } }
+.icon.icon-group.blue {
+  background-image: url("../images/icon-group-blue.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 33px;
+  height: 31px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-group.blue {
+      background-image: url("../images/icon-group-blue.png");
+      background-size: 33px 31px;
+      background-repeat: no-repeat; } }
+.icon.icon-leading.blue {
+  background-image: url("../images/icon-leading-blue.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 20px;
+  height: 43px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-leading.blue {
+      background-image: url("../images/icon-leading-blue.png");
+      background-size: 20px 43px;
+      background-repeat: no-repeat; } }
+.icon.icon-leading-scene.blue {
+  background-image: url("../images/icon-leading-scene-blue.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 34px;
+  height: 36px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-leading-scene.blue {
+      background-image: url("../images/icon-leading-scene-blue.png");
+      background-size: 34px 36px;
       background-repeat: no-repeat; } }
 .icon.icon-social-link {
   display: block;
