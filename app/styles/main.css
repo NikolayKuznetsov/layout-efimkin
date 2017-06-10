@@ -517,6 +517,8 @@ html, body {
     margin: auto;
     bottom: 36px;
     width: 52px; }
+    .block--first-about .arrow-action:hover {
+      cursor: pointer; }
 
 .block--block-two {
   background-image: url("../images/bg1.jpg");
@@ -661,7 +663,8 @@ html, body {
   .block--block-three .btn {
     margin: 36px 0;
     width: 290px;
-    height: 50px; }
+    height: 50px;
+    padding: 12px 10px; }
   .block--block-three .circle-items .circle-item {
     background-color: #004BA9;
     width: 154px;
@@ -1369,6 +1372,86 @@ html, body {
   .wrapper.page-scroll .context {
     padding-top: 0;
     padding-bottom: 0; }
+
+.container-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 90;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -khtml-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+  .container-popup.open {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all 0.4s ease;
+    -khtml-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
+  .container-popup .container-popup-content {
+    background-color: #161616;
+    width: 400px;
+    height: 320px;
+    max-width: 90vw;
+    max-height: 90vh;
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    -khtml-box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    -moz-box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    -ms-box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    -o-box-shadow: 0 0 30px rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.25); }
+    .container-popup .container-popup-content .form {
+      width: 100%; }
+      .container-popup .container-popup-content .form .form-control {
+        height: 40px;
+        font-size: 16px; }
+      .container-popup .container-popup-content .form .btn {
+        height: 40px; }
+      .container-popup .container-popup-content .form p {
+        font-size: 18px;
+        text-align: center;
+        line-height: 100%;
+        color: #fff; }
+      .container-popup .container-popup-content .form textarea {
+        height: 80px !important; }
+  .container-popup .container-popup-bg {
+    background-color: rgba(22, 22, 22, 0.85);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1; }
+
+#request-call-popup .container-popup .container-popup-content {
+  height: 220px; }
+
+#send-request-popup .container-popup .container-popup-content {
+  height: 280px; }
+
+#send-consultation-popup .container-popup .container-popup-content {
+  height: 380px; }
 
 body.cube-transition {
   overflow: hidden;

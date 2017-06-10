@@ -77,6 +77,7 @@
     $(document).ready(
         function () {
 
+
             //for scroll by mouse or MAC track pad
             var indicator = new WheelIndicator({
                 callback: function (e) {
@@ -113,6 +114,10 @@
 
             $('#bullets>li').on('click', function () {
                 openIndex($(this).index() + 1);
+            });
+
+            $('.block--first-about .icon-arrow-down').on('click', function () {
+                trans('down');
             });
 
         });
