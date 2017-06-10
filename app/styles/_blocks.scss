@@ -661,6 +661,41 @@ html, body {
   }
 }
 
+.block--anniversary-two {
+  background-image: url("../images/bg-block--anniversary-two.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 980px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+  .title {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    margin: 0 0 36px;
+  }
+  .desc {
+    p {
+      font-size: 20px;
+      line-height: 100%;
+      margin-bottom: 20px;
+      &.text-italic {
+        font-family: 'Segoe Script', 'Roboto', sans-serif;
+      }
+      &.fz40 {
+        font-size: 40px;
+        line-height: 100%;
+      }
+    }
+  }
+  .img-content {
+    margin-bottom: 40px;
+  }
+}
+
 .block--wedding-two, .block--wedding-three {
   background-color: #fff;
   min-height: 600px;

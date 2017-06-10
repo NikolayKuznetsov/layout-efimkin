@@ -387,6 +387,10 @@
   font-family: "BebasNeueRegular";
   src: url("../fonts/BebasNeueRegular.otf");
   font-weight: normal; }
+@font-face {
+  font-family: "Segoe Script";
+  src: url("../fonts/segoescb.ttf");
+  font-weight: normal; }
 body {
   font-family: 'Lato', 'Roboto', sans-serif;
   font-size: 12px;
@@ -921,6 +925,33 @@ html, body {
       text-align: center;
       padding: 40px 36px;
       line-height: 125%; }
+
+.block--anniversary-two {
+  background-image: url("../images/bg-block--anniversary-two.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 980px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff; }
+  .block--anniversary-two .title {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    margin: 0 0 36px; }
+  .block--anniversary-two .desc p {
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 20px; }
+    .block--anniversary-two .desc p.text-italic {
+      font-family: 'Segoe Script', 'Roboto', sans-serif; }
+    .block--anniversary-two .desc p.fz40 {
+      font-size: 40px;
+      line-height: 100%; }
+  .block--anniversary-two .img-content {
+    margin-bottom: 40px; }
 
 .block--wedding-two, .block--wedding-three {
   background-color: #fff;
