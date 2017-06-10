@@ -883,6 +883,11 @@ html, body {
   height: 100vh;
   min-height: 638px; }
 
+.block--wedding-first {
+  background-color: #fff;
+  height: calc(100vh - 78px);
+  min-height: 638px; }
+
 .block--corporate-two {
   background-image: url("../images/bg-block--corporate-two.jpg");
   background-size: cover;
@@ -1051,7 +1056,9 @@ html, body {
     right: 0;
     bottom: 0; }
     .slider-box .item-slider .image img {
-      max-width: 100%; }
+      min-width: 100%;
+      max-width: 105%;
+      min-height: 100%; }
 .slider-box .slick-arrow {
   position: absolute;
   width: 62px;
@@ -1147,6 +1154,8 @@ html, body {
     .slider-box .slick-dots li.slick-active button, .slider-box .slick-dots li:hover button {
       background-color: #fff;
       border-color: #004572; }
+.slider-box.slider-box--wedding .item-slider .container-box {
+  color: #284770; }
 
 .footer {
   background-color: #D5D8E5;
@@ -1185,7 +1194,6 @@ html, body {
   height: 100%; }
   .wrapper .context {
     padding-top: 78px;
-    padding-bottom: 20px;
     margin-bottom: 88px;
     min-height: calc(100% - 88px);
     width: 100%;

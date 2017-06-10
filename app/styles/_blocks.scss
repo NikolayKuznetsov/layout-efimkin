@@ -608,6 +608,12 @@ html, body {
   min-height: $minHeight;
 }
 
+.block--wedding-first {
+  background-color: #fff;
+  height: calc(100vh - 78px);
+  min-height: $minHeight;
+}
+
 .block--corporate-two {
   background-image: url("../images/bg-block--corporate-two.jpg");
   background-size: cover;
@@ -808,7 +814,9 @@ html, body {
       right: 0;
       bottom: 0;
       img {
-        max-width: 100%;
+        min-width: 100%;
+        max-width: 105%;
+        min-height: 100%;
       }
     }
   }
@@ -895,6 +903,13 @@ html, body {
       }
     }
   }
+  &.slider-box--wedding {
+    .item-slider {
+      .container-box {
+        color: #284770;
+      }
+    }
+  }
 }
 
 .footer {
@@ -941,7 +956,7 @@ html, body {
   height: 100%;
   .context {
     padding-top: 78px;
-    padding-bottom: 20px;
+    //padding-bottom: 20px;
     margin-bottom: 88px;
     min-height: calc(100% - 88px);
     width: 100%;
