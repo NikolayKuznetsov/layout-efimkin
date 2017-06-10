@@ -708,6 +708,67 @@ html, body {
   }
 }
 
+.block--contact {
+  background-image: url("../images/bg-block--footer-form.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 930px;
+  padding-top: 76px;
+  padding-bottom: 60px;
+  .title, .sub-title, .small-text {
+    text-align: center;
+  }
+  .title {
+    font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #00235E;
+    margin: 12px 0 20px;
+  }
+  .sub-title {
+    font-size: 18px;
+    line-height: 125%;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .small-text {
+    font-size: 12px;
+    line-height: 125%;
+    color: #cbc8ef;
+    margin-bottom: 20px;
+  }
+  .form {
+    width: 555px;
+    margin: 0 auto;
+    .label-text, .desc-text {
+      color: #fff;
+      line-height: 125%;
+      margin-bottom: 8px;
+    }
+    .label-text {
+      font-size: 20px;
+    }
+    .desc-text {
+      font-size: 16px;
+    }
+    .group-checkbox {
+      margin-bottom: 8px;
+      label {
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+      }
+      .fh-checkbox {
+        margin-right: 36px;
+      }
+    }
+    .btn {
+      height: 52px;
+    }
+  }
+}
+
 .slider-box {
   &,
   .slick-list,
@@ -725,8 +786,8 @@ html, body {
         padding-top: 100px;
       }
       .title, .sub-title, .description {
-        font-family: 'Roboto Condensed', 'Roboto', sans-serif;
-        font-weight: 500;
+        font-family: 'BebasNeueRegular', 'Roboto Condensed', 'Roboto', sans-serif;
+        font-weight: normal;
         line-height: 100%;
       }
       .title {
@@ -826,7 +887,7 @@ html, body {
         padding: 0;
         @include border-radius(50%);
       }
-      &.active, &:hover {
+      &.slick-active, &:hover {
         button {
           background-color: #fff;
           border-color: #004572;
