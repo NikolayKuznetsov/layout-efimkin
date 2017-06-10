@@ -1039,6 +1039,31 @@ html, body {
   height: calc(50vh - 38px);
   overflow: hidden;
   position: relative; }
+  .block--gallery .col-25:before, .block--gallery .col-50:before {
+    content: '';
+    background-color: rgba(18, 28, 70, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+    -webkit-transition: opacity .5s ease, visibility .5s ease;
+    -khtml-transition: opacity .5s ease, visibility .5s ease;
+    -moz-transition: opacity .5s ease, visibility .5s ease;
+    -ms-transition: opacity .5s ease, visibility .5s ease;
+    -o-transition: opacity .5s ease, visibility .5s ease;
+    transition: opacity .5s ease, visibility .5s ease; }
+  .block--gallery .col-25:hover:before, .block--gallery .col-50:hover:before {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .5s ease, visibility .5s ease;
+    -khtml-transition: opacity .5s ease, visibility .5s ease;
+    -moz-transition: opacity .5s ease, visibility .5s ease;
+    -ms-transition: opacity .5s ease, visibility .5s ease;
+    -o-transition: opacity .5s ease, visibility .5s ease;
+    transition: opacity .5s ease, visibility .5s ease; }
   .block--gallery .col-25 img, .block--gallery .col-25 iframe, .block--gallery .col-50 img, .block--gallery .col-50 iframe {
     min-width: 100%;
     max-width: 105%;
