@@ -611,7 +611,7 @@ html, body {
 .block--wedding-first {
   background-color: #fff;
   height: calc(100vh - 78px);
-  min-height: $minHeight;
+  min-height: calc(100vh - 78px);
 }
 
 .block--corporate-two {
@@ -661,9 +661,9 @@ html, body {
   }
 }
 
-.block--wedding-two {
+.block--wedding-two, .block--wedding-three {
   background-color: #fff;
-  min-height: $minHeight;
+  min-height: 600px;
   .box-text, .content-box {
     width: 100%;
     float: left;
@@ -717,6 +717,36 @@ html, body {
         width: 600px;
         float: left;
         padding: 80px 40px;
+        &.container-box--small {
+          padding: 60px 40px;
+        }
+      }
+      .title {
+        font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 100%;
+        margin-bottom: 20px;
+        color: #284770;
+        &.small {
+          font-size: 30px;
+          line-height: 100%;
+          margin-bottom: 8px;
+        }
+      }
+      .action {
+        margin-bottom: 40px;
+      }
+      .desc {
+        font-size: 18px;
+        line-height: 100%;
+        color: #353d49;
+        p {
+          margin-bottom: 28px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
       }
       .list {
         &.list-icon {

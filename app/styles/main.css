@@ -886,7 +886,7 @@ html, body {
 .block--wedding-first {
   background-color: #fff;
   height: calc(100vh - 78px);
-  min-height: 638px; }
+  min-height: calc(100vh - 78px); }
 
 .block--corporate-two {
   background-image: url("../images/bg-block--corporate-two.jpg");
@@ -922,40 +922,40 @@ html, body {
       padding: 40px 36px;
       line-height: 125%; }
 
-.block--wedding-two {
+.block--wedding-two, .block--wedding-three {
   background-color: #fff;
-  min-height: 638px; }
-  .block--wedding-two .box-text, .block--wedding-two .content-box {
+  min-height: 600px; }
+  .block--wedding-two .box-text, .block--wedding-two .content-box, .block--wedding-three .box-text, .block--wedding-three .content-box {
     width: 100%;
     float: left; }
-  .block--wedding-two .box-text {
+  .block--wedding-two .box-text, .block--wedding-three .box-text {
     background-color: #004572;
     color: #fff;
     text-align: center;
     padding: 60px 0; }
-    .block--wedding-two .box-text .title {
+    .block--wedding-two .box-text .title, .block--wedding-three .box-text .title {
       font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
       font-size: 48px;
       font-weight: bold;
       line-height: 100%;
       margin-bottom: 20px; }
-    .block--wedding-two .box-text .desc {
+    .block--wedding-two .box-text .desc, .block--wedding-three .box-text .desc {
       font-size: 18px;
       line-height: 100%; }
-      .block--wedding-two .box-text .desc p {
+      .block--wedding-two .box-text .desc p, .block--wedding-three .box-text .desc p {
         margin-bottom: 5px; }
-        .block--wedding-two .box-text .desc p:last-child {
+        .block--wedding-two .box-text .desc p:last-child, .block--wedding-three .box-text .desc p:last-child {
           margin-bottom: 0; }
-  .block--wedding-two .content-box {
+  .block--wedding-two .content-box, .block--wedding-three .content-box {
     height: 600px; }
-    .block--wedding-two .content-box .img, .block--wedding-two .content-box .context {
+    .block--wedding-two .content-box .img, .block--wedding-two .content-box .context, .block--wedding-three .content-box .img, .block--wedding-three .content-box .context {
       width: 50%;
       float: left;
       height: 600px;
       overflow: hidden; }
-    .block--wedding-two .content-box .img {
+    .block--wedding-two .content-box .img, .block--wedding-three .content-box .img {
       position: relative; }
-      .block--wedding-two .content-box .img img {
+      .block--wedding-two .content-box .img img, .block--wedding-three .content-box .img img {
         min-width: 100%;
         min-height: 600px;
         position: absolute;
@@ -967,24 +967,47 @@ html, body {
         -ms-transform: translate(-50%, -50%);
         -o-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
-    .block--wedding-two .content-box .context {
+    .block--wedding-two .content-box .context, .block--wedding-three .content-box .context {
       margin: 0;
       padding: 0; }
-      .block--wedding-two .content-box .context .container-box {
+      .block--wedding-two .content-box .context .container-box, .block--wedding-three .content-box .context .container-box {
         width: 600px;
         float: left;
         padding: 80px 40px; }
-      .block--wedding-two .content-box .context .list.list-icon .item {
+        .block--wedding-two .content-box .context .container-box.container-box--small, .block--wedding-three .content-box .context .container-box.container-box--small {
+          padding: 60px 40px; }
+      .block--wedding-two .content-box .context .title, .block--wedding-three .content-box .context .title {
+        font-family: 'BebasNeueBold', 'Roboto Condensed', 'Roboto', sans-serif;
+        font-size: 48px;
+        font-weight: bold;
+        line-height: 100%;
+        margin-bottom: 20px;
+        color: #284770; }
+        .block--wedding-two .content-box .context .title.small, .block--wedding-three .content-box .context .title.small {
+          font-size: 30px;
+          line-height: 100%;
+          margin-bottom: 8px; }
+      .block--wedding-two .content-box .context .action, .block--wedding-three .content-box .context .action {
+        margin-bottom: 40px; }
+      .block--wedding-two .content-box .context .desc, .block--wedding-three .content-box .context .desc {
+        font-size: 18px;
+        line-height: 100%;
+        color: #353d49; }
+        .block--wedding-two .content-box .context .desc p, .block--wedding-three .content-box .context .desc p {
+          margin-bottom: 28px; }
+          .block--wedding-two .content-box .context .desc p:last-child, .block--wedding-three .content-box .context .desc p:last-child {
+            margin-bottom: 0; }
+      .block--wedding-two .content-box .context .list.list-icon .item, .block--wedding-three .content-box .context .list.list-icon .item {
         width: 100%;
         float: left;
         margin-bottom: 50px; }
-        .block--wedding-two .content-box .context .list.list-icon .item:last-child {
+        .block--wedding-two .content-box .context .list.list-icon .item:last-child, .block--wedding-three .content-box .context .list.list-icon .item:last-child {
           margin-bottom: 0; }
-      .block--wedding-two .content-box .context .list.list-icon .icon, .block--wedding-two .content-box .context .list.list-icon .text {
+      .block--wedding-two .content-box .context .list.list-icon .icon, .block--wedding-two .content-box .context .list.list-icon .text, .block--wedding-three .content-box .context .list.list-icon .icon, .block--wedding-three .content-box .context .list.list-icon .text {
         float: left; }
-      .block--wedding-two .content-box .context .list.list-icon .icon {
+      .block--wedding-two .content-box .context .list.list-icon .icon, .block--wedding-three .content-box .context .list.list-icon .icon {
         width: 76px; }
-      .block--wedding-two .content-box .context .list.list-icon .text {
+      .block--wedding-two .content-box .context .list.list-icon .text, .block--wedding-three .content-box .context .list.list-icon .text {
         width: calc(100% - 76px);
         font-size: 18px;
         color: #353d49;
