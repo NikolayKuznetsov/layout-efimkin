@@ -2,9 +2,15 @@ $(function () {
 
 
 
-    var headerHeight = $('header').offset().top;
-
+    var headerHeight = $('header').height();
+    headerMenu();
     $(window).scroll(function(){
+        headerMenu();
+    });
+
+    elementTranslate3dHome();
+
+    function headerMenu() {
         if( $(window).scrollTop() > headerHeight ) {
             $('header').addClass('scrolled');
             $('header .logo .icon-logo').addClass('black');
@@ -14,10 +20,7 @@ $(function () {
             $('header .logo .icon-logo').removeClass('black');
             $('header .icon-social-link').removeClass('black');
         }
-    });
-
-    elementTranslate3dHome();
-
+    }
 
     function elementTranslate3dHome() {
         var mousePointerBlockTwo1 = $('.page-home .block--block-two .img-element.img-element-1');

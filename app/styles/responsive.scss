@@ -1,9 +1,11 @@
 @import "mixins/mixins";
+
 @media (max-width: 1920px) {
   .header {
     padding: 0 24px;
   }
 }
+
 @media (max-width: 1366px) {
   .header {
     padding: 0 8px;

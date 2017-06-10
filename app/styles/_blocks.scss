@@ -655,6 +655,59 @@ html, body {
   }
 }
 
+.block--gallery {
+  .col-25, .col-50 {
+    float: left;
+    height: calc(50vh - 38px);
+    overflow: hidden;
+    position: relative;
+    img, iframe {
+      min-width: 100%;
+      max-width: 105%;
+      min-height: calc(50vh - 36px);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      @include transform('translate(-50%, -50%)');
+    }
+    .link-video {
+      background-color: #fff;
+      width: 66px;
+      height: 66px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      @include border-radius(50%);
+      z-index: 1;
+      &:before {
+        content: '';
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 14px solid #004BA9;
+        width: 14px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      }
+    }
+  }
+  .col-25 {
+    width: 25%;
+  }
+  .col-50 {
+    width: 50%;
+  }
+}
+
 .slider-box {
   &,
   .slick-list,

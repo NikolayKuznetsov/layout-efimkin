@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
     <link rel="stylesheet" type="text/css" href="libs/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="libs/baguetteBox/baguetteBox.css">
 
     <link rel="stylesheet" href="styles/main.css">
 
@@ -217,6 +218,36 @@
                 </div>
             </div>
         </div>
+        <div class="block--gallery">
+            <div class="content-gallery baguetteBoxOne">
+
+                <a class="col-25" href="images/gallery/corporate-g-1.jpg">
+                    <img src="images/gallery/corporate-g-1.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/corporate-g-2.jpg">
+                    <img src="images/gallery/corporate-g-2.jpg" alt="">
+                </a>
+
+                <a class="col-50" href="images/gallery/corporate-g-3.jpg">
+                    <img src="images/gallery/corporate-g-3.jpg" alt="">
+                </a>
+
+                <a class="col-50" href="images/gallery/corporate-g-4.jpg">
+                    <div class="link-video"></div>
+                    <img src="images/gallery/corporate-g-4.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/corporate-g-5.jpg">
+                    <img src="images/gallery/corporate-g-5.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/corporate-g-6.jpg">
+                    <img src="images/gallery/corporate-g-6.jpg" alt="">
+                </a>
+
+            </div>
+        </div>
     </section>
 
     <footer class="footer block">
@@ -257,6 +288,10 @@
 <script src="scripts/pageController.js"></script>
 
 <script src="libs/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="libs/baguetteBox/baguetteBox.js" async></script>
+<script src="libs/baguetteBox/highlight.min.js" async></script>
+
 <script type="text/javascript">
     $(document).on('ready', function () {
         $(".regular").slick({
@@ -266,6 +301,15 @@
             slidesToScroll: 1
         });
     });
+
+    window.onload = function () {
+        baguetteBox.run('.baguetteBoxOne');
+
+        if (typeof oldIE === 'undefined' && Object.keys) {
+            hljs.initHighlighting();
+        }
+    };
+
 </script>
 
 <script>
