@@ -39,6 +39,11 @@ $(function () {
         $('#send-date-popup .container-popup').addClass('open');
     });
 
+    $('.header .icon-menu-mobile').on('click', function () {
+        $('.header').toggleClass('open-menu');
+        $(this).toggleClass('closed');
+    });
+
     $(window).scroll(function () {
         headerMenu();
     });

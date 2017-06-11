@@ -56,9 +56,15 @@
     @include retina-image($urlIconLeadingSceneBlue, $urlIconLeadingSceneBlue, 34px, 36px);
   }
 
-  &.icon-menu-mobile.white {
-    $urlIconMenuMobileWhite: '../images/icon-menu-mobile.png';
-    @include retina-image($urlIconMenuMobileWhite, $urlIconMenuMobileWhite, 30px, 21px);
+  &.icon-menu-mobile {
+    &.white {
+      $urlIconMenuMobileWhite: '../images/icon-menu-mobile.png';
+      @include retina-image($urlIconMenuMobileWhite, $urlIconMenuMobileWhite, 30px, 21px);
+    }
+    &.closed {
+      $urlIconMenuMobileClosedWhite: '../images/icon-menu-mobile-closed.png';
+      @include retina-image($urlIconMenuMobileClosedWhite, $urlIconMenuMobileClosedWhite, 21px, 21px);
+    }
   }
   &.icon-request-call.white {
     $urlIconRequestCallWhite: '../images/icon-request-call.png';
