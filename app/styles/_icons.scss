@@ -61,14 +61,24 @@
       $urlIconMenuMobileWhite: '../images/icon-menu-mobile.png';
       @include retina-image($urlIconMenuMobileWhite, $urlIconMenuMobileWhite, 30px, 21px);
     }
+    &.black {
+      $urlIconMenuMobileBlack: '../images/icon-menu-mobile-black.png';
+      @include retina-image($urlIconMenuMobileBlack, $urlIconMenuMobileBlack, 30px, 21px);
+    }
     &.closed {
       $urlIconMenuMobileClosedWhite: '../images/icon-menu-mobile-closed.png';
       @include retina-image($urlIconMenuMobileClosedWhite, $urlIconMenuMobileClosedWhite, 21px, 21px);
     }
   }
-  &.icon-request-call.white {
-    $urlIconRequestCallWhite: '../images/icon-request-call.png';
-    @include retina-image($urlIconRequestCallWhite, $urlIconRequestCallWhite, 26px, 26px);
+  &.icon-request-call {
+    &.white {
+      $urlIconRequestCallWhite: '../images/icon-request-call.png';
+      @include retina-image($urlIconRequestCallWhite, $urlIconRequestCallWhite, 26px, 26px);
+    }
+    &.black {
+      $urlIconRequestCallBlack: '../images/icon-request-call-black.png';
+      @include retina-image($urlIconRequestCallBlack, $urlIconRequestCallBlack, 26px, 26px);
+    }
   }
 
   &.icon-social-link {

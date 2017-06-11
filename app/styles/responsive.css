@@ -206,6 +206,7 @@
         .header.open-menu .menu .items .item a {
           font-size: 14px;
           padding: 14px 8px;
+          color: #fff;
           display: inline-block;
           border-top: 1px solid #0E305D;
           width: 100%; }

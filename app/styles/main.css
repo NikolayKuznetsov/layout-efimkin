@@ -1998,6 +1998,17 @@ textarea.form-control {
       background-image: url("../images/icon-menu-mobile.png");
       background-size: 30px 21px;
       background-repeat: no-repeat; } }
+.icon.icon-menu-mobile.black {
+  background-image: url("../images/icon-menu-mobile-black.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 30px;
+  height: 21px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-menu-mobile.black {
+      background-image: url("../images/icon-menu-mobile-black.png");
+      background-size: 30px 21px;
+      background-repeat: no-repeat; } }
 .icon.icon-menu-mobile.closed {
   background-image: url("../images/icon-menu-mobile-closed.png");
   background-repeat: no-repeat;
@@ -2018,6 +2029,17 @@ textarea.form-control {
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .icon.icon-request-call.white {
       background-image: url("../images/icon-request-call.png");
+      background-size: 26px 26px;
+      background-repeat: no-repeat; } }
+.icon.icon-request-call.black {
+  background-image: url("../images/icon-request-call-black.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 26px;
+  height: 26px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-request-call.black {
+      background-image: url("../images/icon-request-call-black.png");
       background-size: 26px 26px;
       background-repeat: no-repeat; } }
 .icon.icon-social-link {
