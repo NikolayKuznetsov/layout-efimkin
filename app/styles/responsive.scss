@@ -446,6 +446,69 @@
     }
   }
 
+  .block--wedding-two, .block--wedding-three {
+    .box-text {
+      .title {
+        font-size: 32px;
+      }
+      .desc {
+        font-size: 16px;
+      }
+    }
+    .content-box {
+      height: inherit;
+      .img, .context {
+        width: 100%;
+        height: inherit;
+      }
+      .img {
+        height: 320px;
+        img {
+          max-height: 320px;
+        }
+      }
+      .context {
+        .container-box {
+          padding: 20px;
+        }
+        .list.list-icon {
+          .item {
+            margin-bottom: 12px;
+          }
+          .icon, .text {
+            width: 100%;
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+  }
+  .block--wedding-two, .block--wedding-three {
+    .content-box {
+      .context {
+        .title {
+          font-size: 32px;
+          &.small {
+            font-size: 24px;
+          }
+        }
+        .desc {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .block--wedding-banner {
+    min-height: 320px;
+    .title {
+      font-size: 32px;
+    }
+    .desc {
+      font-size: 16px;
+    }
+  }
+
   .block--blog, .block--reviews {
     .list-article {
       .item-article {

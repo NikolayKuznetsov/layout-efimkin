@@ -273,6 +273,41 @@
     background-color: rgba(35, 114, 220, 0.8);
     height: inherit; }
 
+  .block--wedding-two .box-text .title, .block--wedding-three .box-text .title {
+    font-size: 32px; }
+  .block--wedding-two .box-text .desc, .block--wedding-three .box-text .desc {
+    font-size: 16px; }
+  .block--wedding-two .content-box, .block--wedding-three .content-box {
+    height: inherit; }
+    .block--wedding-two .content-box .img, .block--wedding-two .content-box .context, .block--wedding-three .content-box .img, .block--wedding-three .content-box .context {
+      width: 100%;
+      height: inherit; }
+    .block--wedding-two .content-box .img, .block--wedding-three .content-box .img {
+      height: 320px; }
+      .block--wedding-two .content-box .img img, .block--wedding-three .content-box .img img {
+        max-height: 320px; }
+    .block--wedding-two .content-box .context .container-box, .block--wedding-three .content-box .context .container-box {
+      padding: 20px; }
+    .block--wedding-two .content-box .context .list.list-icon .item, .block--wedding-three .content-box .context .list.list-icon .item {
+      margin-bottom: 12px; }
+    .block--wedding-two .content-box .context .list.list-icon .icon, .block--wedding-two .content-box .context .list.list-icon .text, .block--wedding-three .content-box .context .list.list-icon .icon, .block--wedding-three .content-box .context .list.list-icon .text {
+      width: 100%;
+      margin-bottom: 12px; }
+
+  .block--wedding-two .content-box .context .title, .block--wedding-three .content-box .context .title {
+    font-size: 32px; }
+    .block--wedding-two .content-box .context .title.small, .block--wedding-three .content-box .context .title.small {
+      font-size: 24px; }
+  .block--wedding-two .content-box .context .desc, .block--wedding-three .content-box .context .desc {
+    font-size: 16px; }
+
+  .block--wedding-banner {
+    min-height: 320px; }
+    .block--wedding-banner .title {
+      font-size: 32px; }
+    .block--wedding-banner .desc {
+      font-size: 16px; }
+
   .block--blog .list-article .item-article .image, .block--reviews .list-article .item-article .image {
     width: 100%;
     margin-bottom: 20px; }
