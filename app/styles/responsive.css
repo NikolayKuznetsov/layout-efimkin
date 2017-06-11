@@ -167,6 +167,49 @@
       position: relative;
       visibility: visible; } }
 @media (max-width: 992px) {
+  .header .menu .items, .header .social-links, .header .phone-info {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden; }
+  .header .menu .icon-menu-mobile {
+    position: absolute;
+    right: 10px;
+    top: 22px;
+    visibility: visible;
+    opacity: 1;
+    display: block !important; }
+  .header .request-call .icon-request-call {
+    position: absolute;
+    right: 58px;
+    top: 20px;
+    visibility: visible;
+    opacity: 1;
+    display: block !important; }
+  .header .request-call button {
+    visibility: hidden;
+    opacity: 0; }
+  .header.open-menu {
+    background-color: #133666; }
+    .header.open-menu .menu .items {
+      opacity: 1;
+      visibility: visible;
+      background: #133666;
+      left: 0;
+      right: 0;
+      top: 76px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column; }
+      .header.open-menu .menu .items .item {
+        width: 100%; }
+        .header.open-menu .menu .items .item a {
+          font-size: 14px;
+          padding: 14px 8px;
+          display: inline-block;
+          border-top: 1px solid #fff;
+          width: 100%; }
+
   .block--first-about {
     background-image: url("../images/bg-block--first-about-mobile.jpg");
     background-repeat: no-repeat;
@@ -348,6 +391,20 @@
       margin-right: 7px; }
   .slider-box .slick-arrow {
     display: none;
-    visibility: hidden; } }
+    visibility: hidden; }
+
+  .footer {
+    padding: 20px 0; }
+    .footer .container-box {
+      flex-direction: column; }
+    .footer .copyright-text {
+      text-align: center;
+      padding: 0 20px; }
+    .footer .copyright-text, .footer .social-links {
+      position: relative;
+      width: 100%; }
+    .footer .social-links {
+      display: inline-block;
+      text-align: center; } }
 
 /*# sourceMappingURL=responsive.css.map */
