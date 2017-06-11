@@ -44,5 +44,148 @@
       padding: 40px 80px; }
     .block--block-four .form-info-box {
       padding: 20px 80px; } }
+@media (max-width: 1280px) {
+  .header .menu .items .item a {
+    font-size: 13px;
+    padding: 5px; }
+  .header .phone-info {
+    min-width: 155px; }
+    .header .phone-info .phone-number {
+      font-size: 16px; }
+    .header .phone-info .phone-links, .header .phone-info .email {
+      font-size: 12px; }
+
+  .icon.icon-logo {
+    background-size: cover !important;
+    width: 180px !important;
+    height: 27px !important; }
+
+  .block .container-box {
+    width: 100%;
+    padding: 0 20px; }
+
+  .block--wedding-two .box-text, .block--wedding-three .box-text {
+    padding: 48px 20px; }
+
+  .slider-box .item-slider .container-box .content-box {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px; }
+  .slider-box .slick-dots {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px; }
+
+  .btn {
+    font-size: 13px; } }
+@media (max-width: 1024px) {
+  .icon.icon-logo {
+    background-size: cover !important;
+    width: 160px !important;
+    height: 23px !important; }
+
+  .header .menu .items .item a {
+    font-size: 12px;
+    padding: 3px; }
+  .header .phone-info {
+    min-width: 145px; }
+    .header .phone-info .phone-number {
+      font-size: 14px; }
+    .header .phone-info .phone-links, .header .phone-info .email {
+      font-size: 11px; }
+  .header .btn.btn-xs {
+    font-size: 12px;
+    padding: 8px 6px; }
+
+  body.cube-transition {
+    overflow: auto; }
+
+  .block--first-about .popup-info {
+    padding: 25px 32px; }
+    .block--first-about .popup-info .title {
+      font-size: 46px; }
+    .block--first-about .popup-info .description {
+      font-size: 18px;
+      margin-bottom: 20px; }
+
+  .block--block-two .action-box, .block--block-two .box-text {
+    width: 100%; }
+  .block--block-two .box-text {
+    padding: 24px 32px; }
+
+  .block--block-three {
+    padding-top: 24px; }
+    .block--block-three .title {
+      font-size: 32px; }
+    .block--block-three .sub-title {
+      font-size: 28px; }
+
+  .block--block-four .title {
+    font-size: 32px; }
+  .block--block-four .form-box {
+    padding: 32px 48px; }
+
+  .block--wedding-two .content-box .context .container-box, .block--wedding-three .content-box .context .container-box {
+    width: 100%;
+    padding: 48px 24px; }
+  .block--wedding-two .content-box .context .list.list-icon .icon, .block--wedding-three .content-box .context .list.list-icon .icon {
+    width: 50px; }
+  .block--wedding-two .content-box .context .list.list-icon .text, .block--wedding-three .content-box .context .list.list-icon .text {
+    width: calc(100% - 50px); }
+
+  .block--blog, .block--reviews {
+    padding: 48px 0 20px; }
+    .block--blog .list-article .item-article .image, .block--reviews .list-article .item-article .image {
+      width: 180px; }
+      .block--blog .list-article .item-article .image .circle, .block--reviews .list-article .item-article .image .circle {
+        width: 140px;
+        height: 140px; }
+    .block--blog .list-article .item-article .content, .block--reviews .list-article .item-article .content {
+      width: calc(100% - 180px); }
+      .block--blog .list-article .item-article .content .description, .block--reviews .list-article .item-article .content .description {
+        font-size: 16px;
+        margin-bottom: 20px; }
+
+  .footer .social-links .item {
+    margin-right: 12px; }
+
+  .slider-box .item-slider .container-box .title {
+    font-size: 48px; }
+  .slider-box .item-slider .container-box .sub-title {
+    font-size: 32px; }
+  .slider-box .item-slider .container-box .description {
+    font-size: 16px;
+    margin-bottom: 10px; }
+
+  #cubeTransition {
+    min-height: 100%;
+    height: inherit; }
+    #cubeTransition > div {
+      min-height: 560px;
+      height: initial;
+      width: 100%;
+      position: relative;
+      visibility: visible; } }
+@media (max-width: 992px) {
+  .block--first-about {
+    background-image: url("../images/bg-block--first-about-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: inherit;
+    padding-top: 80px; }
+    .block--first-about .popup-info {
+      background-color: transparent;
+      width: 100%; }
+      .block--first-about .popup-info .title {
+        font-size: 32px;
+        text-align: right; }
+      .block--first-about .popup-info .sub-title {
+        font-size: 10px;
+        padding-right: 0; }
+      .block--first-about .popup-info .description {
+        font-size: 16px; }
+    .block--first-about .video-container {
+      display: none; } }
 
 /*# sourceMappingURL=responsive.css.map */

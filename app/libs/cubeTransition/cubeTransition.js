@@ -77,18 +77,21 @@
     $(document).ready(
         function () {
 
+            var widthDevice = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 
-            //for scroll by mouse or MAC track pad
-            var indicator = new WheelIndicator({
-                callback: function (e) {
-                    if (e.direction == 'down') {
-                        trans('down')
-                    } else {
-                        trans('up')
+            if ($('.wrapper').hasClass('page-home') && widthDevice > 1024) {
+                //for scroll by mouse or MAC track pad
+                var indicator = new WheelIndicator({
+                    callback: function (e) {
+                        if (e.direction == 'down') {
+                            trans('down')
+                        } else {
+                            trans('up')
+                        }
                     }
-                }
-            });
-            indicator.getOption('preventMouse'); // true
+                });
+                indicator.getOption('preventMouse'); // true
+            }
 
 
             $(document).keydown(function (e) {

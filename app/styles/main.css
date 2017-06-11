@@ -1100,7 +1100,7 @@ html, body {
     transition: opacity .5s ease, visibility .5s ease; }
   .block--gallery .col-25 img, .block--gallery .col-25 iframe, .block--gallery .col-50 img, .block--gallery .col-50 iframe {
     min-width: 100%;
-    max-width: 105%;
+    max-width: 115%;
     min-height: calc(50vh - 36px);
     position: absolute;
     left: 50%;
