@@ -255,6 +255,7 @@
     background-image: url("../images/bg-block--first-about-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     min-height: inherit;
     padding-top: 80px; }
@@ -274,6 +275,8 @@
 
   .block--block-two {
     background: #fff; }
+    .block--block-two .container-box {
+      padding: 0; }
     .block--block-two .box-text {
       background-image: url("../images/bg--block-two--box-text.jpg");
       background-repeat: no-repeat;
@@ -348,6 +351,8 @@
   .block--corporate-two .title {
     font-size: 32px;
     margin: 32px 0; }
+  .block--corporate-two .list .item .text {
+    padding: 20px; }
 
   .block--corporate-two .list .item .img, .block--corporate-two .list .item .text, .block--corporate-two .list .item .img, .block--corporate-two .list .item .text {
     width: 100%; }
@@ -384,6 +389,9 @@
       font-size: 24px; }
   .block--wedding-two .content-box .context .desc, .block--wedding-three .content-box .context .desc {
     font-size: 16px; }
+
+  .block--corporate-first .slider-box .item-slider .container-box .title {
+    margin-top: 76px; }
 
   .block--wedding-banner {
     min-height: 320px; }
@@ -449,5 +457,24 @@
     .footer .social-links {
       display: inline-block;
       text-align: center; } }
+@media (max-width: 680px) {
+  .block--first-about .popup-info {
+    padding: 24px 10px; }
+
+  .block--block-two .number-box .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+
+  .block--block-three .circle-items .circle-item {
+    float: none;
+    margin-bottom: 20px; }
+
+  .block--wedding-two .content-box .context .container-box.container-box--small, .block--wedding-three .content-box .context .container-box.container-box--small {
+    padding: 40px 20px; }
+
+  .block--anniversary-two .desc p.fz40 {
+    font-size: 24px; } }
 
 /*# sourceMappingURL=responsive.css.map */

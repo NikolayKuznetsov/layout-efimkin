@@ -966,6 +966,8 @@ body.noscroll {
       line-height: 100%; }
   .block--anniversary-two .img-content {
     margin-bottom: 40px; }
+    .block--anniversary-two .img-content img {
+      max-width: 100%; }
 
 .block--wedding-two, .block--wedding-three {
   background-color: #fff;
@@ -1236,11 +1238,21 @@ body.noscroll {
     left: 0;
     top: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    overflow: hidden; }
     .slider-box .item-slider .image img {
       min-width: 100%;
-      max-width: 105%;
-      min-height: 100%; }
+      max-width: inherit;
+      min-height: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -khtml-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
 .slider-box .slick-arrow {
   position: absolute;
   width: 62px;
