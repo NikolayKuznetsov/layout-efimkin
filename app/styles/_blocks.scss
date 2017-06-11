@@ -5,6 +5,12 @@ html, body {
   height: 100%;
 }
 
+body {
+  &.noscroll {
+    overflow: hidden !important;
+  }
+}
+
 .header {
   position: fixed;
   left: 0;

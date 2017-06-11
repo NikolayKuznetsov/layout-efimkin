@@ -79,6 +79,10 @@
       $urlIconRequestCallBlack: '../images/icon-request-call-black.png';
       @include retina-image($urlIconRequestCallBlack, $urlIconRequestCallBlack, 26px, 26px);
     }
+    &.closed {
+      $urlIconMenuMobileClosedWhite: '../images/icon-menu-mobile-closed.png';
+      @include retina-image($urlIconMenuMobileClosedWhite, $urlIconMenuMobileClosedWhite, 21px, 21px);
+    }
   }
 
   &.icon-social-link {

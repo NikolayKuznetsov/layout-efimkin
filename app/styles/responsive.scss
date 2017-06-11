@@ -377,6 +377,29 @@
         }
       }
     }
+    &.open-request-call {
+      background-color: #133666;
+      .phone-info {
+        background-color: #133666;
+        visibility: visible;
+        opacity: 1;
+        top: 76px;
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        color: #fff;
+        .phone-links, .email, a {
+          color: #fff !important;
+        }
+        .phone-number {
+          font-size: 21px;
+        }
+        .phone-links, .email {
+          font-size: 18px;
+        }
+      }
+    }
+
   }
   .block--first-about {
     background-image: url('../images/bg-block--first-about-mobile.jpg');

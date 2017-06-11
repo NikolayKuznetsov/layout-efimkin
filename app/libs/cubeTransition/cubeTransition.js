@@ -119,9 +119,11 @@
                 openIndex($(this).index() + 1);
             });
 
-            $('.block--first-about .icon-arrow-down').on('click', function () {
-                trans('down');
-            });
+            if (widthDevice > 1024) {
+                $('.block--first-about .icon-arrow-down').on('click', function () {
+                    trans('down');
+                });
+            }
 
         });
 })(jQuery);

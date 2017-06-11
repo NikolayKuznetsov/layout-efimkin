@@ -402,6 +402,9 @@ a {
 html, body {
   height: 100%; }
 
+body.noscroll {
+  overflow: hidden !important; }
+
 .header {
   position: fixed;
   left: 0;
@@ -2041,6 +2044,17 @@ textarea.form-control {
     .icon.icon-request-call.black {
       background-image: url("../images/icon-request-call-black.png");
       background-size: 26px 26px;
+      background-repeat: no-repeat; } }
+.icon.icon-request-call.closed {
+  background-image: url("../images/icon-menu-mobile-closed.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 21px;
+  height: 21px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .icon.icon-request-call.closed {
+      background-image: url("../images/icon-menu-mobile-closed.png");
+      background-size: 21px 21px;
       background-repeat: no-repeat; } }
 .icon.icon-social-link {
   display: block;
