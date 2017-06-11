@@ -344,12 +344,17 @@
           .item {
             width: 100%;
             a {
-              font-size: 14px;
+              font-size: 12px;
               padding: 14px 8px;
               color: #fff;
               display: inline-block;
               border-top: 1px solid #0E305D;
               width: 100%;
+              &:hover, &:active {
+                background-color: #0E305D;
+                border-bottom: 1px solid transparent;
+
+              }
             }
           }
         }
@@ -359,7 +364,7 @@
         border-top: 1px solid #0E305D;
         visibility: visible;
         opacity: 1;
-        top: 368px;
+        top: 370px;
         width: 100%;
         left: 0;
         padding: 20px 10px;
@@ -616,6 +621,7 @@
   .block--blog, .block--reviews {
     .list-article {
       .item-article {
+        padding-right: 0;
         .image {
           width: 100%;
           margin-bottom: 20px;
