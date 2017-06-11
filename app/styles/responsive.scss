@@ -307,7 +307,7 @@
       .icon-menu-mobile {
         position: absolute;
         right: 10px;
-        top: 22px;
+        top: 28px;
         visibility: visible;
         opacity: 1;
         display: block !important;
@@ -317,7 +317,7 @@
       .icon-request-call {
         position: absolute;
         right: 58px;
-        top: 20px;
+        top: 26px;
         visibility: visible;
         opacity: 1;
         display: block !important;
@@ -348,7 +348,8 @@
               padding: 14px 8px;
               color: #fff;
               display: inline-block;
-              border-top: 1px solid #0E305D;
+              border-top: 1px solid #0E305D !important;
+              border-bottom: 1px solid transparent !important;
               width: 100%;
               &:hover, &:active {
                 background-color: #0E305D;
