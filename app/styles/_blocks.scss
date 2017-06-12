@@ -39,10 +39,14 @@ body {
     }
     .phone-info {
       color: #000;
-
+      .phone-number {
+        a, a:hover, a:active {
+          color: #000;
+        }
+      }
       .phone-links, .email {
         color: #000;
-        a {
+        a, a:hover, a:active {
           color: #000;
         }
       }
@@ -98,6 +102,9 @@ body {
       font-size: 20px;
       line-height: 150%;
       font-weight: 600;
+      a, a:hover {
+        color: #fff;
+      }
     }
     .phone-links, .email {
       font-size: 14px;

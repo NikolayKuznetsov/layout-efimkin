@@ -430,9 +430,11 @@ body.noscroll {
         border-color: #000; }
     .header.scrolled .phone-info {
       color: #000; }
+      .header.scrolled .phone-info .phone-number a, .header.scrolled .phone-info .phone-number a:hover, .header.scrolled .phone-info .phone-number a:active {
+        color: #000; }
       .header.scrolled .phone-info .phone-links, .header.scrolled .phone-info .email {
         color: #000; }
-        .header.scrolled .phone-info .phone-links a, .header.scrolled .phone-info .email a {
+        .header.scrolled .phone-info .phone-links a, .header.scrolled .phone-info .phone-links a:hover, .header.scrolled .phone-info .phone-links a:active, .header.scrolled .phone-info .email a, .header.scrolled .phone-info .email a:hover, .header.scrolled .phone-info .email a:active {
           color: #000; }
   .header .menu .icon-menu-mobile {
     visibility: hidden;
@@ -470,6 +472,8 @@ body.noscroll {
       font-size: 20px;
       line-height: 150%;
       font-weight: 600; }
+      .header .phone-info .phone-number a, .header .phone-info .phone-number a:hover {
+        color: #fff; }
     .header .phone-info .phone-links, .header .phone-info .email {
       font-size: 14px;
       line-height: 150%;
