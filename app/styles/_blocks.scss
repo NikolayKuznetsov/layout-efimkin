@@ -24,7 +24,7 @@ body {
   z-index: 3;
   &.scrolled {
     background-color: #fff;
-    @include box-shadow(0, -3px, 12px, rgba(0,0,0,.25));
+    @include box-shadow(0, -3px, 12px, rgba(0, 0, 0, .25));
     .menu {
       .items {
         .item {
@@ -582,7 +582,7 @@ body {
 .block--blog, .block--reviews {
   padding: 80px 0 20px;
   .video-container {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 76px;
     right: 0;
@@ -643,6 +643,9 @@ body {
           font-size: 19px;
           line-height: 125%;
           margin-bottom: 40px;
+        }
+        .full-description {
+          display: none;
         }
         .action {
           margin-bottom: 16px;
@@ -1226,6 +1229,13 @@ body {
       padding-bottom: 0;
     }
   }
+  &.page-blog {
+    .context {
+      padding-top: 78px;
+      margin-bottom: 0;
+      min-height: 100%;
+    }
+  }
 }
 
 .container-popup {
@@ -1313,6 +1323,18 @@ body {
   .container-popup {
     .container-popup-content {
       height: 380px;
+    }
+  }
+}
+
+#article-description-popup {
+  .container-popup {
+    .container-popup-content {
+      width: 75%;
+      height: 400px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 125%;
     }
   }
 }

@@ -56,6 +56,13 @@ $(function () {
         }
     });
 
+    $('.page-blog .list-article .action a').on('click', function () {
+        var popup = $('#article-description-popup .container-popup');
+        var text = $(this).closest('.content').find('.full-description').text();
+        popup.addClass('open');
+        popup.find('.container-popup-content').text(text);
+    });
+
     $(window).scroll(function () {
         headerMenu();
     });

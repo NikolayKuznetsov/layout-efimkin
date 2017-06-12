@@ -894,7 +894,7 @@ body.noscroll {
 .block--blog, .block--reviews {
   padding: 80px 0 20px; }
   .block--blog .video-container, .block--reviews .video-container {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 76px;
     right: 0;
@@ -951,6 +951,8 @@ body.noscroll {
         font-size: 19px;
         line-height: 125%;
         margin-bottom: 40px; }
+      .block--blog .list-article .item-article .content .full-description, .block--reviews .list-article .item-article .content .full-description {
+        display: none; }
       .block--blog .list-article .item-article .content .action, .block--reviews .list-article .item-article .content .action {
         margin-bottom: 16px; }
 
@@ -1455,6 +1457,10 @@ body.noscroll {
   .wrapper.page-scroll .context {
     padding-top: 0;
     padding-bottom: 0; }
+  .wrapper.page-blog .context {
+    padding-top: 78px;
+    margin-bottom: 0;
+    min-height: 100%; }
 
 .container-popup {
   position: fixed;
@@ -1535,6 +1541,13 @@ body.noscroll {
 
 #send-consultation-popup .container-popup .container-popup-content {
   height: 380px; }
+
+#article-description-popup .container-popup .container-popup-content {
+  width: 75%;
+  height: 400px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 125%; }
 
 @keyframes bounce {
   from {
