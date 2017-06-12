@@ -36,6 +36,12 @@
                 inClass = 'rotateCubeTopIn';
             }
             show();
+            if (next == 2) {
+                $(".spincrement").spincrement({
+                    thousandSeparator: "",
+                    duration: 8000
+                });
+            }
         }
     }
 

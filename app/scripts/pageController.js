@@ -140,7 +140,7 @@ $(function () {
             mousePointerBlockTwo2.css('transform', transfromPosition2);
             mousePointerBlockTwo3.css('transform', transfromPosition3);
             mousePointerBlockTwo4.css('transform', transfromPosition4);
-            mousePointerBlockTwo5.css('transform', transfromPosition5);
+            // mousePointerBlockTwo5.css('transform', transfromPosition5);
             mousePointerBlockTwo6.css('transform', transfromPosition4);
 
             transfromPosition2 = 'translate3d(' + (x / 2) + '%, 0, 0)';
@@ -151,7 +151,7 @@ $(function () {
 
             mousePointerBlockThree1.css('transform', transfromPosition1);
             mousePointerBlockThree2.css('transform', transfromPosition4);
-            mousePointerBlockThree3.css('transform', transfromPosition2);
+            // mousePointerBlockThree3.css('transform', transfromPosition2);
             mousePointerBlockThree4.css('transform', transfromPosition3);
             mousePointerBlockThree5.css('transform', transfromPosition2);
             mousePointerBlockThree6.css('transform', transfromPosition5);
@@ -167,7 +167,7 @@ $(function () {
             mousePointerBlockFour6.css('transform', transfromPosition2);
             mousePointerBlockFour7.css('transform', transfromPosition3);
             mousePointerBlockFour8.css('transform', transfromPosition1);
-            mousePointerBlockFour9.css('transform', transfromPosition3);
+            // mousePointerBlockFour9.css('transform', transfromPosition3);
             mousePointerBlockFour10.css('transform', transfromPosition2);
             mousePointerBlockFour11.css('transform', transfromPosition4);
         })
