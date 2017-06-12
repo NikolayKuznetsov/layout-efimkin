@@ -250,6 +250,10 @@
         font-size: 21px; }
       .header.open-request-call .phone-info .phone-links, .header.open-request-call .phone-info .email {
         font-size: 18px; }
+      .header.open-request-call .phone-info .form-phone {
+        visibility: visible;
+        opacity: 1;
+        display: block; }
 
   .block--first-about {
     background-image: url("../images/bg-block--first-about-mobile.jpg");

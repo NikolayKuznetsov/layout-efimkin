@@ -480,6 +480,20 @@ body.noscroll {
       color: #adccf5; }
       .header .phone-info .phone-links a, .header .phone-info .email a {
         color: #adccf5; }
+    .header .phone-info .form-phone {
+      visibility: hidden;
+      opacity: 0;
+      display: none; }
+      .header .phone-info .form-phone .form {
+        border-top: 1px solid #0E305D;
+        padding: 20px 0 0;
+        margin-top: 20px; }
+        .header .phone-info .form-phone .form .text-label {
+          font-size: 15px; }
+      .header .phone-info .form-phone .form-control {
+        height: 40px; }
+      .header .phone-info .form-phone .btn {
+        height: 40px; }
 
 .block {
   width: 100%;
