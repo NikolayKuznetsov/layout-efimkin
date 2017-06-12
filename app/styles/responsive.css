@@ -67,10 +67,11 @@
   .block--wedding-two .box-text, .block--wedding-three .box-text {
     padding: 48px 20px; }
 
-  .slider-box .item-slider .container-box .content-box {
+  .block .container-box--slider .content-box {
     padding-top: 80px;
     padding-left: 80px;
     padding-right: 80px; }
+
   .slider-box .slick-dots {
     width: 100%;
     padding-left: 80px;
@@ -149,11 +150,11 @@
   .footer .social-links .item {
     margin-right: 12px; }
 
-  .slider-box .item-slider .container-box .title {
+  .block .container-box--slider .title {
     font-size: 48px; }
-  .slider-box .item-slider .container-box .sub-title {
+  .block .container-box--slider .sub-title {
     font-size: 32px; }
-  .slider-box .item-slider .container-box .description {
+  .block .container-box--slider .description {
     font-size: 16px;
     margin-bottom: 10px; }
 
@@ -394,7 +395,7 @@
   .block--wedding-two .content-box .context .desc, .block--wedding-three .content-box .context .desc {
     font-size: 16px; }
 
-  .block--corporate-first .slider-box .item-slider .container-box .title {
+  .block--corporate-first .container-box--slider .title {
     margin-top: 76px; }
 
   .block--wedding-banner {
@@ -430,10 +431,11 @@
   .block--gallery .col-25, .block--gallery .col-50 {
     width: 100%; }
 
-  .slider-box .item-slider .container-box .content-box {
+  .block .container-box--slider .content-box {
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px; }
+
   .slider-box .slick-dots {
     padding-left: 20px;
     padding-right: 20px;

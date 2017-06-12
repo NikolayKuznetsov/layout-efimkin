@@ -1054,6 +1054,38 @@ body {
   }
 }
 
+.block {
+  .container-box--slider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    z-index: 2;
+    .content-box {
+      padding-top: 100px;
+    }
+    .title, .sub-title, .description {
+      font-family: 'BebasNeueRegular', 'Roboto Condensed', 'Roboto', sans-serif;
+      font-weight: normal;
+      line-height: 100%;
+    }
+    .title {
+      font-size: 58px;
+    }
+    .sub-title {
+      font-size: 40px;
+    }
+    .description {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    &.container-box--slider--wedding {
+      color: #284770;
+    }
+  }
+}
+
 .slider-box {
   &,
   .slick-list,

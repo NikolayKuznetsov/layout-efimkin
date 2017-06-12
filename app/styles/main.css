@@ -1287,6 +1287,29 @@ body.noscroll {
     .block--contact .form .btn {
       height: 52px; }
 
+.block .container-box--slider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: #fff;
+  z-index: 2; }
+  .block .container-box--slider .content-box {
+    padding-top: 100px; }
+  .block .container-box--slider .title, .block .container-box--slider .sub-title, .block .container-box--slider .description {
+    font-family: 'BebasNeueRegular', 'Roboto Condensed', 'Roboto', sans-serif;
+    font-weight: normal;
+    line-height: 100%; }
+  .block .container-box--slider .title {
+    font-size: 58px; }
+  .block .container-box--slider .sub-title {
+    font-size: 40px; }
+  .block .container-box--slider .description {
+    font-size: 18px;
+    margin-bottom: 10px; }
+  .block .container-box--slider.container-box--slider--wedding {
+    color: #284770; }
+
 .slider-box,
 .slider-box .slick-list,
 .slider-box .slick-track,
