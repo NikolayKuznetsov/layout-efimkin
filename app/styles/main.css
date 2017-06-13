@@ -831,8 +831,6 @@ body.noscroll {
   .block--block-four .form-box > *, .block--block-four .form-info-box > * {
     position: relative;
     z-index: 2; }
-  .block--block-four textarea.form-control {
-    height: 80px; }
   .block--block-four .form-box {
     background-color: #fff;
     padding: 60px 80px; }
@@ -1590,8 +1588,11 @@ body.noscroll {
   width: 75%;
   height: 400px;
   color: #fff;
-  font-size: 18px;
-  line-height: 125%; }
+  font-size: 16px;
+  line-height: 125%;
+  padding: 20px; }
+  #article-description-popup .container-popup .container-popup-content .content {
+    overflow: auto; }
 
 @keyframes bounce {
   from {

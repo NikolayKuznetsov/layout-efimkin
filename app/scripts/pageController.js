@@ -60,7 +60,7 @@ $(function () {
         var popup = $('#article-description-popup .container-popup');
         var text = $(this).closest('.content').find('.full-description').text();
         popup.addClass('open');
-        popup.find('.container-popup-content').text(text);
+        popup.find('.container-popup-content .content').text(text);
     });
 
     $(window).scroll(function () {

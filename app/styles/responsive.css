@@ -491,6 +491,10 @@
     padding: 40px 20px; }
 
   .block--anniversary-two .desc p.fz40 {
-    font-size: 24px; } }
+    font-size: 24px; }
+
+  #article-description-popup .container-popup .container-popup-content {
+    width: 85%;
+    height: 75%; } }
 
 /*# sourceMappingURL=responsive.css.map */
