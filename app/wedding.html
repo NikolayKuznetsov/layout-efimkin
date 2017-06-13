@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"/>
     <title>Cвадьба | Олег Ефимкин</title>
 
     <link rel="stylesheet" href="styles/reset.css">
@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" type="text/css" href="libs/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="libs/baguetteBox/baguetteBox.css">
+    <link rel="stylesheet" type="text/css" href="libs/wow/animate.css">
 
     <link rel="stylesheet" href="styles/main.css">
 
@@ -161,7 +162,7 @@
 
         <div id="box-wedding-two" class="block block--wedding-two ">
             <div class="box-text">
-                <div class="container-box">
+                <div class="container-box wow bounceInUp" data-wow-duration="2s">
                     <div class="title">Дорогие молодожУли</div>
                     <div class="desc">
                         <p>Пишу доступным языком, чтобы Вы понимали, как строится свадебный вечер, а Дарья Донцова
@@ -178,7 +179,7 @@
                 <div class="context">
                     <div class="container-box">
                         <div class="list list-icon">
-                            <div class="item">
+                            <div class="item wow slideInRight" data-wow-duration="2s">
                                 <div class="icon">
                                     <div class="icon icon-question blue"></div>
                                 </div>
@@ -187,7 +188,7 @@
                                         весь вечер торжества.</p>
                                 </div>
                             </div>
-                            <div class="item">
+                            <div class="item wow slideInRight" data-wow-duration="2s">
                                 <div class="icon">
                                     <div class="icon icon-group blue"></div>
                                 </div>
@@ -195,7 +196,7 @@
                                     <p>Сценарный план прописывается НЕ наобум, а под интересы всех присутствующих.</p>
                                 </div>
                             </div>
-                            <div class="item">
+                            <div class="item wow slideInRight" data-wow-duration="2s">
                                 <div class="icon">
                                     <div class="icon icon-leading blue"></div>
                                 </div>
@@ -204,7 +205,7 @@
                                         должно быть в меру.</p>
                                 </div>
                             </div>
-                            <div class="item">
+                            <div class="item wow slideInRight" data-wow-duration="2s">
                                 <div class="icon">
                                     <div class="icon icon-leading-scene blue"></div>
                                 </div>
@@ -223,14 +224,14 @@
             <div class="content-box">
                 <div class="context">
                     <div class="container-box container-box--small">
-                        <div class="title small">ОДНОГО ВЕДУЩЕГО МАЛО?</div>
-                        <div class="title">ЛЕГКО РАБОТАЕМ В ДУЭТЕ!</div>
-                        <div class="action">
+                        <div class="title small wow slideInLeft" data-wow-duration="2s">ОДНОГО ВЕДУЩЕГО МАЛО?</div>
+                        <div class="title wow slideInLeft" data-wow-duration="2s">ЛЕГКО РАБОТАЕМ В ДУЭТЕ!</div>
+                        <div class="action wow slideInLeft" data-wow-duration="2s">
                             <button class="btn btn-blue btn-xs text-uppercase">
                                 САЙТ ВЕДУЩИХ ДУЭТА #EK_SHOW
                             </button>
                         </div>
-                        <div class="desc">
+                        <div class="desc wow slideInLeft" data-wow-duration="2s">
                             <p>Услуги ведущего в МОСКВЕ и Подмосковье – моя прерогатива, а поэтому задача, которая стоит
                                 <br>
                                 передо мной, – предложить Вам множество идей. Остальное зависит от Вас.
@@ -256,12 +257,12 @@
 
         <div id="box-banner-wedding" class="block block--wedding-banner">
             <div class="container-box">
-                <div class="title">ЯРКО, НЕЗАБЫВАЕМО, ДУШЕВНО</div>
-                <div class="desc">
+                <div class="title wow bounceInUp" data-wow-duration="2s">ЯРКО, НЕЗАБЫВАЕМО, ДУШЕВНО</div>
+                <div class="desc wow bounceInUp" data-wow-duration="2s">
                     <p>Свадьбу можно провести в любой день, у меня нет выходных, <br> но есть красивые даты, поэтому
                         бронируйте заранее</p>
                 </div>
-                <div class="action">
+                <div class="action wow bounceInUp" data-wow-duration="3s">
                     <button class="btn btn-blue btn-xs text-uppercase send-date">
                         ЗАБРОНИРОВАТЬ ДАТУ
                     </button>
@@ -463,6 +464,8 @@
 
 <script src="libs/slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
+<script src="libs/wow/wow.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="libs/baguetteBox/baguetteBox.js" async></script>
 <script src="libs/baguetteBox/highlight.min.js" async></script>
 
@@ -486,20 +489,23 @@
         }
     };
 
+    var wow = new WOW(
+            {
+                boxClass: 'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset: 0,          // distance to the element when triggering the animation (default is 0)
+                mobile: true,       // trigger animations on mobile devices (default is true)
+                live: true,       // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null // optional scroll container selector, otherwise use window
+            }
+    );
+    wow.init();
 </script>
 
-<script>
-    //    function animationOut(i) {
-    //    }
-    //    function animationIn(i) {
-    //    }
-    //well, you need modify the cubeTransition.js file
-    //delete the two functions if you dont need this kind of animation.
-</script>
-
-<!--<script src='libs/cubeTransition/wheel-indicator.js'></script>-->
-<!--<script src="libs/cubeTransition/jquery.touchSwipe.js"></script>-->
-<!--<script src="libs/cubeTransition/cubeTransition.js"></script>-->
 
 </body>
 </html>

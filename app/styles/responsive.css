@@ -38,12 +38,12 @@
     .block--block-three .btn {
       margin: 20px 0; }
 
-  .block--block-four {
-    padding-top: 30px; }
-    .block--block-four .form-box {
-      padding: 40px 80px; }
-    .block--block-four .form-info-box {
-      padding: 20px 80px; } }
+  .block--block-four .form-box {
+    padding: 30px 80px; }
+  .block--block-four .form-info-box {
+    padding: 20px 80px; }
+  .block--block-four textarea.form-control {
+    height: 80px; } }
 @media (max-width: 1280px) {
   .header .menu .items .item a {
     font-size: 13px;

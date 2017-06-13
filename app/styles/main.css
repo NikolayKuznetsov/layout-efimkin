@@ -819,7 +819,8 @@ body.noscroll {
   background-image: url("../images/bg3.jpg");
   background-size: cover;
   height: 100vh;
-  min-height: 638px; }
+  min-height: 638px;
+  padding-top: 90px; }
   .block--block-four .container-box, .block--block-four .box {
     height: 100%; }
   .block--block-four .box {
@@ -830,6 +831,8 @@ body.noscroll {
   .block--block-four .form-box > *, .block--block-four .form-info-box > * {
     position: relative;
     z-index: 2; }
+  .block--block-four textarea.form-control {
+    height: 80px; }
   .block--block-four .form-box {
     background-color: #fff;
     padding: 60px 80px; }

@@ -66,12 +66,14 @@
     }
   }
   .block--block-four {
-    padding-top: 30px;
     .form-box {
-      padding: 40px 80px;
+      padding: 30px 80px;
     }
     .form-info-box {
       padding: 20px 80px;
+    }
+    textarea.form-control {
+      height: 80px;
     }
   }
 }
