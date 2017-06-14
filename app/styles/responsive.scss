@@ -298,6 +298,9 @@
 }
 
 @media (max-width: 992px) {
+  .form-control {
+    font-size: 16px;
+  }
   .header {
     .menu .items, .social-links, .phone-info {
       position: absolute;
@@ -366,6 +369,7 @@
         border-top: 1px solid #0E305D;
         visibility: visible;
         opacity: 1;
+        height: calc(100vh - 370px);
         top: 370px;
         width: 100%;
         left: 0;
@@ -391,18 +395,27 @@
         visibility: visible;
         opacity: 1;
         top: 76px;
+        bottom: 0;
+        height: 100vh;
         width: 100%;
         left: 0;
         padding: 10px;
         color: #fff;
-        .phone-links, .email, a {
-          color: #fff !important;
+        .phone-number, .phone-links, .email {
+          color: #fff;
+          text-align: center;
         }
         .phone-number {
           font-size: 21px;
+          a {
+            color: #fff !important;
+          }
         }
         .phone-links, .email {
           font-size: 18px;
+          a {
+            color: #adccf5 !important;
+          }
         }
         .form-phone {
           visibility: visible;
@@ -434,6 +447,14 @@
       }
       .description {
         font-size: 16px;
+        line-height: 125%;
+        text-align: center;
+      }
+      .action {
+        text-align: center;
+        .btn {
+          display: inline-block;
+        }
       }
     }
     .video-container {
@@ -610,6 +631,12 @@
       }
     }
   }
+  .block--wedding-three {
+    .content-box {
+      display: flex;
+      flex-direction: column-revers
+    }
+  }
   .block--wedding-two, .block--wedding-three {
     .content-box {
       .context {
@@ -687,11 +714,22 @@
     .container-box--slider {
       .content-box {
         padding-top: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .title, .sub-title, .description {
+       text-align: center;
+      }
+      .action {
+        margin: 20px 0;
+        text-align: center;
+        .btn {
+          display: inline-block;
+        }
       }
     }
   }
+
   .slider-box {
     .slick-dots {
       padding-left: 20px;
@@ -776,6 +814,7 @@
         .container-box {
           &.container-box--small {
             padding: 40px 20px;
+            text-align: center;
           }
         }
       }
