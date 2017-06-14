@@ -379,13 +379,18 @@ body {
     padding: 12px 10px;
   }
   .circle-items {
+    .item {
+      width: 154px;
+      height: 154px;
+      display: block;
+      float: left;
+      margin-right: 20px;
+    }
     .circle-item {
       background-color: #004BA9;
       width: 154px;
       height: 154px;
       color: #fff;
-      float: left;
-      margin-right: 20px;
       position: relative;
 
       display: flex;
@@ -1224,6 +1229,42 @@ body {
     .item-slider {
       .container-box {
         color: #284770;
+      }
+    }
+  }
+}
+
+.slick-slider--small {
+  padding-bottom: 24px;
+  .slick-arrow {
+    display: none !important;
+  }
+  .slick-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin-right: 7px;
+      button {
+        background-color: #004572;
+        border: 3px solid transparent;
+        text-indent: -9999px;
+        display: block;
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        @include border-radius(50%);
+      }
+      &.slick-active, &:hover {
+        button {
+          background-color: #fff;
+          border-color: #004572;
+        }
       }
     }
   }

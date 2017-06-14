@@ -309,6 +309,16 @@
         background-position: bottom left; }
       .block--block-two .box-text .number-box {
         margin-bottom: 20px; }
+        .block--block-two .box-text .number-box .items {
+          display: block;
+          width: 100%; }
+          .block--block-two .box-text .number-box .items .item .counts {
+            text-align: center; }
+            .block--block-two .box-text .number-box .items .item .counts .number {
+              display: inline-block;
+              margin-right: 1px;
+              margin-left: 1px;
+              float: none; }
       .block--block-two .box-text .title {
         font-size: 32px; }
       .block--block-two .box-text .description {
@@ -320,7 +330,7 @@
     background-image: url("../images/bg--block-thee-home-page.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: auto;
+    background-size: cover;
     background-color: #E9E9E9;
     min-height: initial !important;
     padding-bottom: 40px; }
@@ -333,9 +343,19 @@
         font-size: 24px; }
       .block--block-three .text-box .description {
         font-size: 16px; }
-      .block--block-three .text-box .circle-items {
-        text-align: center;
-        display: inline-block; }
+      .block--block-three .text-box .circle-items .item {
+        display: block;
+        margin: 0 auto; }
+        .block--block-three .text-box .circle-items .item .icon-item {
+          text-align: center; }
+          .block--block-three .text-box .circle-items .item .icon-item i {
+            display: inline-block; }
+      .block--block-three .text-box .circle-items .circle-item {
+        float: none;
+        margin: 0 auto !important;
+        display: block;
+        padding: 20px;
+        text-align: center; }
     .block--block-three .img-element {
       display: none; }
 
@@ -407,7 +427,9 @@
 
   .block--wedding-three .content-box {
     display: flex;
-    flex-direction: column-revers; }
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse; }
 
   .block--wedding-two .content-box .context .title, .block--wedding-three .content-box .context .title {
     font-size: 32px; }
@@ -504,16 +526,6 @@
 @media (max-width: 680px) {
   .block--first-about .popup-info {
     padding: 24px 10px; }
-
-  .block--block-two .number-box .items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-
-  .block--block-three .circle-items .circle-item {
-    float: none;
-    margin-bottom: 20px; }
 
   .block--wedding-two .content-box .context .container-box.container-box--small, .block--wedding-three .content-box .context .container-box.container-box--small {
     padding: 40px 20px;

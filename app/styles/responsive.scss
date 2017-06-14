@@ -478,6 +478,21 @@
       }
       .number-box {
         margin-bottom: 20px;
+        .items {
+          display: block;
+          width: 100%;
+          .item {
+            .counts {
+              text-align: center;
+              .number {
+                display: inline-block;
+                margin-right: 1px;
+                margin-left: 1px;
+                float: none;
+              }
+            }
+          }
+        }
       }
       .title {
         font-size: 32px;
@@ -495,7 +510,7 @@
     background-image: url('../images/bg--block-thee-home-page.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: auto;
+    background-size: cover;
     background-color: #E9E9E9;
     min-height: initial !important;
     padding-bottom: 40px;
@@ -512,8 +527,23 @@
         font-size: 16px;
       }
       .circle-items {
-        text-align: center;
-        display: inline-block;
+        .item {
+          display: block;
+          margin: 0 auto;
+          .icon-item {
+            text-align: center;
+            i {
+              display: inline-block;
+            }
+          }
+        }
+        .circle-item {
+          float: none;
+          margin: 0 auto !important;
+          display: block;
+          padding: 20px;
+          text-align: center;
+        }
       }
     }
     .img-element {
@@ -634,7 +664,9 @@
   .block--wedding-three {
     .content-box {
       display: flex;
-      flex-direction: column-revers
+      -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
     }
   }
   .block--wedding-two, .block--wedding-three {
@@ -718,7 +750,7 @@
         padding-right: 10px;
       }
       .title, .sub-title, .description {
-       text-align: center;
+        text-align: center;
       }
       .action {
         margin: 20px 0;
@@ -787,24 +819,6 @@
   .block--first-about {
     .popup-info {
       padding: 24px 10px;
-    }
-  }
-  .block--block-two {
-    .number-box {
-      .items {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-    }
-  }
-  .block--block-three {
-    .circle-items {
-      .circle-item {
-        float: none;
-        margin-bottom: 20px;
-      }
     }
   }
 

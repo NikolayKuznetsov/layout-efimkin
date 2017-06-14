@@ -71,7 +71,25 @@ $(function () {
 
     if (widthDevice < 992) {
         $('.block--first-about .video-container').remove();
+
+        $('.number-box .items.slick-slider--small').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 8000
+        });
+        $('.block--block-three .circle-items.slick-slider--small').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 8000
+        });
     }
+
 
     function isEmptyClassMobieMenu() {
         if ($('header').hasClass('scrolled')) {
