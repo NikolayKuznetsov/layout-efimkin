@@ -1270,6 +1270,66 @@ body {
   }
 }
 
+.slick-slider--gallery {
+  .slick-arrow {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    text-indent: -9999px;
+    z-index: 1;
+    @include border-radius(50%);
+    &:after, &:before {
+      content: '';
+      background-color: #004572;
+      width: 18px;
+      height: 3px;
+      display: block;
+      position: absolute;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+    &:after {
+      margin-top: -1px;
+    }
+    &:before {
+      margin-top: 0;
+    }
+  }
+  .slick-prev {
+    left: 5px;
+    &:after {
+      @include transform('rotate(45deg)');
+    }
+    &:before {
+      @include transform('rotate(-45deg)');
+    }
+    &:after, &:before {
+      right: 4px;
+    }
+  }
+  .slick-next {
+    right: 5px;
+    &:after {
+      @include transform('rotate(-45deg)');
+    }
+    &:before {
+      @include transform('rotate(45deg)');
+    }
+    &:after, &:before {
+      left: 4px;
+    }
+  }
+  .slick-dots {
+    display: none !important;
+  }
+}
+
 .footer {
   background-color: #D5D8E5;
   width: 100%;

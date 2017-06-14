@@ -1490,6 +1490,76 @@ body.noscroll {
         background-color: #fff;
         border-color: #004572; }
 
+.slick-slider--gallery .slick-arrow {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: none;
+  text-indent: -9999px;
+  z-index: 1;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%; }
+  .slick-slider--gallery .slick-arrow:after, .slick-slider--gallery .slick-arrow:before {
+    content: '';
+    background-color: #004572;
+    width: 18px;
+    height: 3px;
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0; }
+  .slick-slider--gallery .slick-arrow:after {
+    margin-top: -1px; }
+  .slick-slider--gallery .slick-arrow:before {
+    margin-top: 0; }
+.slick-slider--gallery .slick-prev {
+  left: 5px; }
+  .slick-slider--gallery .slick-prev:after {
+    -webkit-transform: rotate(45deg);
+    -khtml-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .slick-slider--gallery .slick-prev:before {
+    -webkit-transform: rotate(-45deg);
+    -khtml-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .slick-slider--gallery .slick-prev:after, .slick-slider--gallery .slick-prev:before {
+    right: 4px; }
+.slick-slider--gallery .slick-next {
+  right: 5px; }
+  .slick-slider--gallery .slick-next:after {
+    -webkit-transform: rotate(-45deg);
+    -khtml-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  .slick-slider--gallery .slick-next:before {
+    -webkit-transform: rotate(45deg);
+    -khtml-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .slick-slider--gallery .slick-next:after, .slick-slider--gallery .slick-next:before {
+    left: 4px; }
+.slick-slider--gallery .slick-dots {
+  display: none !important; }
+
 .footer {
   background-color: #D5D8E5;
   width: 100%;
