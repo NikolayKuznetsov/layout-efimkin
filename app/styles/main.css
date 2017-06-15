@@ -1085,6 +1085,10 @@ body.noscroll {
       overflow: hidden; }
     .block--wedding-two .content-box .img, .block--wedding-three .content-box .img {
       position: relative; }
+      .block--wedding-two .content-box .img .img-desktop, .block--wedding-three .content-box .img .img-desktop {
+        display: block; }
+      .block--wedding-two .content-box .img .img-mobile, .block--wedding-three .content-box .img .img-mobile {
+        display: none; }
       .block--wedding-two .content-box .img img, .block--wedding-three .content-box .img img {
         min-width: 100%;
         min-height: 600px;

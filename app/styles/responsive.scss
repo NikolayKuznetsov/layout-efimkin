@@ -703,6 +703,23 @@
       font-size: 16px;
     }
   }
+  .block--wedding-two,
+  .block--wedding-three {
+    .content-box {
+      .img {
+        position: relative;
+        .img-desktop {
+          display: none;
+        }
+        .img-mobile {
+          display: block;
+        }
+        img {
+          min-height: 320px;
+        }
+      }
+    }
+  }
 
   .block--blog, .block--reviews {
     .list-article {

@@ -824,6 +824,12 @@ body {
     }
     .img {
       position: relative;
+      .img-desktop {
+        display: block;
+      }
+      .img-mobile {
+        display: none;
+      }
       img {
         min-width: 100%;
         min-height: 600px;

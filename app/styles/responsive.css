@@ -449,6 +449,19 @@
     .block--wedding-banner .desc {
       font-size: 16px; }
 
+  .block--wedding-two .content-box .img,
+  .block--wedding-three .content-box .img {
+    position: relative; }
+    .block--wedding-two .content-box .img .img-desktop,
+    .block--wedding-three .content-box .img .img-desktop {
+      display: none; }
+    .block--wedding-two .content-box .img .img-mobile,
+    .block--wedding-three .content-box .img .img-mobile {
+      display: block; }
+    .block--wedding-two .content-box .img img,
+    .block--wedding-three .content-box .img img {
+      min-height: 320px; }
+
   .block--blog .list-article .item-article, .block--reviews .list-article .item-article {
     padding-right: 0; }
     .block--blog .list-article .item-article .image, .block--reviews .list-article .item-article .image {
