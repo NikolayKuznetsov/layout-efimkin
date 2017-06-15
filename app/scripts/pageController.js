@@ -20,6 +20,10 @@ $(function () {
         $('.container-popup').removeClass('open');
     });
 
+    $('.container-popup-content .icon-popup-close').on('click', function () {
+        $('.container-popup').removeClass('open');
+    });
+
 
     headerMenu();
 

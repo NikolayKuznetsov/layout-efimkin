@@ -1438,6 +1438,12 @@ body {
     bottom: 0;
     margin: auto;
     @include box-shadow(0, 0, 30px, rgba(255, 255, 255, 0.25));
+    .icon-popup-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 2;
+    }
     .form {
       width: 100%;
       .form-control {
@@ -1492,6 +1498,13 @@ body {
     }
   }
 }
+#send-date-popup {
+  .container-popup {
+    .container-popup-content {
+      height: 380px;
+    }
+  }
+}
 
 #article-description-popup {
   .container-popup {
@@ -1501,7 +1514,7 @@ body {
       color: #fff;
       font-size: 16px;
       line-height: 125%;
-      padding: 20px;
+      padding: 35px 20px 30px 20px;
       .content {
         overflow: auto;
       }
