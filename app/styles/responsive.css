@@ -438,7 +438,8 @@
   .block--wedding-two .content-box .context .desc, .block--wedding-three .content-box .context .desc {
     font-size: 16px; }
 
-  .block--corporate-first .container-box--slider .title {
+  .block--corporate-first .container-box--slider .title,
+  .block--wedding-first .container-box--slider .title {
     margin-top: 76px; }
 
   .block--wedding-banner {
