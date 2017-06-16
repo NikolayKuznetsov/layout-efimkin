@@ -169,7 +169,7 @@
       visibility: visible; } }
 @media (max-width: 992px) {
   .form-control {
-    font-size: 16px; }
+    font-size: 14px; }
 
   .header .menu .items, .header .social-links, .header .phone-info {
     position: absolute;
@@ -294,6 +294,9 @@
           display: inline-block; }
     .block--first-about .video-container {
       display: none; }
+
+  .btn {
+    font-size: 12px; }
 
   .block--block-two {
     background: #fff; }
@@ -460,7 +463,8 @@
       display: block; }
     .block--wedding-two .content-box .img img,
     .block--wedding-three .content-box .img img {
-      min-height: 320px; }
+      min-height: 320px;
+      max-height: 480px; }
 
   .block--blog .list-article .item-article, .block--reviews .list-article .item-article {
     padding-right: 0; }

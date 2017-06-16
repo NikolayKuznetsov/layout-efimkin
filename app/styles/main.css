@@ -1678,7 +1678,7 @@ body.noscroll {
       .container-popup .container-popup-content .form p {
         font-size: 18px;
         text-align: center;
-        line-height: 100%;
+        line-height: 125%;
         color: #fff; }
       .container-popup .container-popup-content .form textarea {
         height: 80px !important; }
