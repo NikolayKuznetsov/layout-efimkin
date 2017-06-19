@@ -379,17 +379,18 @@ body {
     padding: 12px 10px;
   }
   .circle-items {
+    margin-top: 40px;
     .item {
-      width: 154px;
-      height: 154px;
+      width: 130px;
+      height: 130px;
       display: block;
       float: left;
       margin-right: 20px;
     }
     .circle-item {
       background-color: #004BA9;
-      width: 154px;
-      height: 154px;
+      width: 130px;
+      height: 130px;
       color: #fff;
       position: relative;
 
@@ -402,8 +403,8 @@ body {
         content: '';
         position: absolute;
         background-color: #004BA9;
-        width: 170px;
-        height: 170px;
+        width: 138px;
+        height: 138px;
         display: block;
         opacity: 0;
         z-index: -1;
@@ -429,7 +430,7 @@ body {
       }
       .title-text {
         font-family: 'Roboto Condensed', 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 100%;
         letter-spacing: -1px;
         text-align: center;

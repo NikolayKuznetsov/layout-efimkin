@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" type="text/css" href="libs/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="libs/baguetteBox/baguetteBox.css">
+    <link rel="stylesheet" type="text/css" href="libs/wow/animate.css">
 
     <link rel="stylesheet" href="styles/main.css">
 
@@ -167,7 +168,7 @@
                         <div class="img">
                             <img src="images/corporate-item-1.jpg" alt="">
                         </div>
-                        <div class="text">
+                        <div class="text wow slideInRight" data-wow-duration="2s">
                             Корпоратив всегда отличался от другихпраздников своим размахом и нестандартным подходом.
                             Лично для меня не имеет значения, какое количество и масштаб планируется. Я готов воплотить
                             в жизнь любое мероприятие. При организации главное создать эффект неожиданности и
@@ -179,7 +180,7 @@
                         <div class="img">
                             <img src="images/corporate-item-2.jpg" alt="">
                         </div>
-                        <div class="text">
+                        <div class="text wow slideInLeft" data-wow-duration="2s">
                             Чтобы праздник прошел хорошо, нужно определить цель корпоратива. Может его проводят для
                             того, чтобы сблизить и раскрепостить сотрудников. Или нужно создать более расслабленную и
                             непринуждённую обстановку. Проводить корпоративные вечера гораздо сложнее, чем любое иное
@@ -191,7 +192,7 @@
                         <div class="img">
                             <img src="images/corporate-item-3.jpg" alt="">
                         </div>
-                        <div class="text">
+                        <div class="text wow slideInRight" data-wow-duration="2s">
                             Я удачно создаю праздники, поэтому вы смело можете взвалить все заботы на мои «широкие
                             плечи» и не сомневаться, что всё пройдет на высоком уровне. Мною прорабатывается сценарий
                             мероприятия, в котором продумываются все детали и нюансы. Я помогаю сотрудникам
@@ -397,6 +398,7 @@
 <script src="scripts/pageController.js"></script>
 
 <script src="libs/slick/slick.js" type="text/javascript" charset="utf-8"></script>
+<script src="libs/wow/wow.js" type="text/javascript" charset="utf-8"></script>
 
 <script src="libs/baguetteBox/baguetteBox.js" async></script>
 <script src="libs/baguetteBox/highlight.min.js" async></script>
@@ -420,6 +422,22 @@
             hljs.initHighlighting();
         }
     };
+
+    var wow = new WOW(
+            {
+                boxClass: 'wow',      // animated element css class (default is wow)
+                animateClass: 'animated', // animation css class (default is animated)
+                offset: 0,          // distance to the element when triggering the animation (default is 0)
+                mobile: true,       // trigger animations on mobile devices (default is true)
+                live: true,       // act on asynchronously loaded content (default is true)
+                callback: function (box) {
+                    // the callback is fired every time an animation is started
+                    // the argument that is passed in is the DOM node being animated
+                },
+                scrollContainer: null // optional scroll container selector, otherwise use window
+            }
+    );
+    wow.init();
 
 </script>
 
