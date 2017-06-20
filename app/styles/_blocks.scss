@@ -529,7 +529,7 @@ body {
       margin-bottom: 13px;
     }
   }
-  .link {
+  .link-pdf {
     a {
       display: flex;
       align-items: center;
@@ -609,6 +609,50 @@ body {
       right: 1%;
       max-width: 240px;
     }
+  }
+  .link {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 10px;
+    .social-links {
+      width: 210px;
+      min-width: 210px;
+      font-size: 0;
+      .item {
+        display: inline-block;
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          display: flex;
+          width: 45px;
+          height: 45px;
+          border: 1px solid #000;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+        }
+      }
+    }
+    .phone-number {
+      a, a:hover, a:active {
+        color: #000;
+      }
+    }
+    .phone-links, .email {
+      color: #000;
+      a, a:hover, a:active {
+        color: #000;
+      }
+    }
+  }
+  .footer {
+    font-size: 12px;
+    color: #333;
+    z-index: 22;
+    position: absolute;
+    bottom: 0;
   }
 }
 
@@ -1242,7 +1286,6 @@ body {
 }
 
 .slick-slider--small {
-  padding-bottom: 24px;
   .slick-arrow {
     display: none !important;
   }

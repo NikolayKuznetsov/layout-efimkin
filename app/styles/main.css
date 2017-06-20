@@ -854,7 +854,7 @@ body.noscroll {
     height: 50px; }
   .block--block-four .form-box .form-group {
     margin-bottom: 13px; }
-  .block--block-four .link a {
+  .block--block-four .link-pdf a {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -862,12 +862,12 @@ body.noscroll {
     font-size: 16px;
     color: #2372dc;
     text-decoration: underline; }
-    .block--block-four .link a:hover {
+    .block--block-four .link-pdf a:hover {
       text-decoration: none; }
-  .block--block-four .link i {
+  .block--block-four .link-pdf i {
     display: inline-block !important;
     margin-right: 10px; }
-  .block--block-four .link.last a {
+  .block--block-four .link-pdf.last a {
     margin-bottom: 0; }
   .block--block-four .img-element {
     z-index: 1; }
@@ -915,6 +915,33 @@ body.noscroll {
       bottom: 2%;
       right: 1%;
       max-width: 240px; }
+  .block--block-four .link {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 10px; }
+    .block--block-four .link .social-links {
+      width: 210px;
+      min-width: 210px;
+      font-size: 0; }
+      .block--block-four .link .social-links .item {
+        display: inline-block;
+        margin-right: 10px; }
+        .block--block-four .link .social-links .item:last-child {
+          margin-right: 0; }
+        .block--block-four .link .social-links .item a {
+          display: flex;
+          width: 45px;
+          height: 45px;
+          border: 1px solid #000;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%; }
+  .block--block-four .footer {
+    font-size: 12px;
+    color: #333;
+    z-index: 22;
+    position: absolute;
+    bottom: 0; }
 
 .block--blog, .block--reviews {
   padding: 80px 0 20px; }
@@ -1463,38 +1490,36 @@ body.noscroll {
 .slider-box.slider-box--wedding .item-slider .container-box {
   color: #284770; }
 
-.slick-slider--small {
-  padding-bottom: 24px; }
-  .slick-slider--small .slick-arrow {
-    display: none !important; }
-  .slick-slider--small .slick-dots {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
-    text-align: center; }
-    .slick-slider--small .slick-dots li {
-      display: inline-block;
-      margin-right: 7px; }
-      .slick-slider--small .slick-dots li button {
-        background-color: #004572;
-        border: 3px solid transparent;
-        text-indent: -9999px;
-        display: block;
-        width: 15px;
-        height: 15px;
-        padding: 0;
-        -webkit-border-radius: 50%;
-        -khtml-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-        border-radius: 50%; }
-      .slick-slider--small .slick-dots li.slick-active button, .slick-slider--small .slick-dots li:hover button {
-        background-color: #fff;
-        border-color: #004572; }
+.slick-slider--small .slick-arrow {
+  display: none !important; }
+.slick-slider--small .slick-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center; }
+  .slick-slider--small .slick-dots li {
+    display: inline-block;
+    margin-right: 7px; }
+    .slick-slider--small .slick-dots li button {
+      background-color: #004572;
+      border: 3px solid transparent;
+      text-indent: -9999px;
+      display: block;
+      width: 15px;
+      height: 15px;
+      padding: 0;
+      -webkit-border-radius: 50%;
+      -khtml-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    .slick-slider--small .slick-dots li.slick-active button, .slick-slider--small .slick-dots li:hover button {
+      background-color: #fff;
+      border-color: #004572; }
 
 .slick-slider--gallery .slick-arrow {
   position: absolute;
