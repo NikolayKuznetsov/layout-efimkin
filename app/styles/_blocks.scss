@@ -614,6 +614,18 @@ body {
     font-size: 16px;
     line-height: 125%;
     margin-bottom: 10px;
+    .link-pdf-file {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+      i {
+        margin-right: 10px;
+      }
+    }
+    .phone-number, .phone-links, .email, .social-links {
+      display: none;
+    }
     .social-links {
       width: 210px;
       min-width: 210px;

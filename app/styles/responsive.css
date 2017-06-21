@@ -366,7 +366,8 @@
       display: none; }
 
   .block--block-four {
-    background: #fff; }
+    background: #fff;
+    padding-bottom: 88px; }
     .block--block-four .title {
       font-size: 32px; }
     .block--block-four .description {
@@ -381,6 +382,14 @@
         width: 100%;
         margin: 10px 0; }
     .block--block-four .img-element {
+      display: none; }
+    .block--block-four .link .link-pdf-file {
+      display: none; }
+    .block--block-four .link .phone-number {
+      text-align: center;
+      font-size: 21px;
+      display: block; }
+    .block--block-four .link .phone-links, .block--block-four .link .email, .block--block-four .link .social-links {
       display: none; }
 
   .block--contact {

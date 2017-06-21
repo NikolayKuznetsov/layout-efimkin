@@ -919,6 +919,15 @@ body.noscroll {
     font-size: 16px;
     line-height: 125%;
     margin-bottom: 10px; }
+    .block--block-four .link .link-pdf-file {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 10px; }
+      .block--block-four .link .link-pdf-file i {
+        margin-right: 10px; }
+    .block--block-four .link .phone-number, .block--block-four .link .phone-links, .block--block-four .link .email, .block--block-four .link .social-links {
+      display: none; }
     .block--block-four .link .social-links {
       width: 210px;
       min-width: 210px;
@@ -936,6 +945,12 @@ body.noscroll {
           align-items: center;
           justify-content: center;
           border-radius: 50%; }
+    .block--block-four .link .phone-number a, .block--block-four .link .phone-number a:hover, .block--block-four .link .phone-number a:active {
+      color: #000; }
+    .block--block-four .link .phone-links, .block--block-four .link .email {
+      color: #000; }
+      .block--block-four .link .phone-links a, .block--block-four .link .phone-links a:hover, .block--block-four .link .phone-links a:active, .block--block-four .link .email a, .block--block-four .link .email a:hover, .block--block-four .link .email a:active {
+        color: #000; }
   .block--block-four .footer {
     font-size: 12px;
     color: #333;
