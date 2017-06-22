@@ -389,6 +389,8 @@
       text-align: center;
       font-size: 21px;
       display: block; }
+      .block--block-four .link .phone-number a {
+        color: #094ca5; }
     .block--block-four .link .phone-links, .block--block-four .link .email, .block--block-four .link .social-links {
       display: none; }
 

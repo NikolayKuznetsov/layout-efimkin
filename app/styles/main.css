@@ -693,7 +693,7 @@ body.noscroll {
       z-index: 2; }
   .block--block-three .description {
     font-size: 18px;
-    line-height: 100%;
+    line-height: 125%;
     color: #474c53;
     margin-bottom: 20px; }
   .block--block-three .title {
