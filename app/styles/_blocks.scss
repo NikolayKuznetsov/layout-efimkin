@@ -1392,6 +1392,53 @@ body {
   }
 }
 
+.block--contacts {
+  padding: 60px 20px 20px;
+  color: #438ef4;
+  a {
+    text-decoration: none;
+    color: #438ef4;
+    &:hover {
+      color: #438ef4;
+    }
+  }
+  .phone-number {
+    font-size: 36px;
+    line-height: 100%;
+    margin-bottom: 15px;
+  }
+  .email {
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 36px;
+  }
+  .social-links {
+    margin-bottom: 36px;
+    .item {
+      display: inline-block;
+    }
+  }
+  .link-pdf {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 12px;
+      font-size: 16px;
+      color: #2372dc;
+    }
+    i {
+      display: inline-block !important;
+      margin-right: 10px;
+    }
+    &.last {
+      a {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
 .footer {
   background-color: #D5D8E5;
   width: 100%;
