@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
-    <title>Контакты | Олег Ефимкин</title>
+    <title>Портфолио | Олег Ефимкин</title>
 
     <link rel="stylesheet" href="styles/reset.css">
 
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/baguetteBox/baguetteBox.css">
 
     <link rel="stylesheet" href="styles/main.css">
 
@@ -48,7 +49,7 @@
                     <a href="corporate.html" class="text-uppercase">корпоратив</a>
                 </div>
                 <div class="item">
-                    <a href="portfolio.html" class="text-uppercase">портфолио</a>
+                    <a href="portfolio.html" class="text-uppercase active">портфолио</a>
                 </div>
                 <div class="item">
                     <a href="reviews.html" class="text-uppercase">отзывы</a>
@@ -57,7 +58,7 @@
                     <a href="blog.html" class="text-uppercase">блог</a>
                 </div>
                 <div class="item">
-                    <a href="contacts.html" class="text-uppercase active">контакты</a>
+                    <a href="contacts.html" class="text-uppercase">контакты</a>
                 </div>
             </div>
         </div>
@@ -121,45 +122,57 @@
     </header>
 
     <section class="context">
-        <div id="box-contacts" class="block block--contacts">
-            <div class="phone-number">
-                <a href="tel:+79258821491">+7 (925) 882-14-91</a>
-            </div>
-            <div class="email">
-                <a href="mailto@olegefimkin@mail.ru">olegefimkin@mail.ru</a>
-            </div>
+        <div id="box-corporate-gallery" class="block block--gallery">
+            <div class="content-gallery baguetteBoxOne slick-slider--gallery">
 
-            <div class="social-links">
-                <div class="item">
-                    <a href="https://vk.com/olegborisich">
-                        <i class="icon icon-social-link vk black"></i>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="https://www.facebook.com/profile.php?id=100010738984499">
-                        <i class="icon icon-social-link fb black"></i>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="https://www.instagram.com/oleg_efimkin">
-                        <i class="icon icon-social-link ig black"></i>
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="https://www.youtube.com/channel/UCp1CSekazNCIxfjCqRntWkA">
-                        <i class="icon icon-social-link yo black"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="link-pdf">
-                <a href="javascript:void(0);" class="link-pdf-file">
-                    <i class="icon icon-pdf-file"></i>
-                    Свадебная презентация
+                <a class="col-25" href="images/gallery/corporate-g-1.jpg">
+                    <img src="images/gallery/corporate-g-1.jpg" alt="">
                 </a>
-                <a href="javascript:void(0);" class="link-pdf-file last">
-                    <i class="icon icon-pdf-file"></i>
-                    Корпоративная презентация
+
+                <a class="col-25" href="images/gallery/corporate-g-2.jpg">
+                    <img src="images/gallery/corporate-g-2.jpg" alt="">
+                </a>
+
+                <a class="col-50" href="images/gallery/corporate-g-3.jpg">
+                    <img src="images/gallery/corporate-g-3.jpg" alt="">
+                </a>
+
+                <a class="col-50" href="images/gallery/corporate-g-4.jpg">
+                    <div class="link-video"></div>
+                    <img src="images/gallery/corporate-g-4.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/corporate-g-5.jpg">
+                    <img src="images/gallery/corporate-g-5.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/corporate-g-6.jpg">
+                    <img src="images/gallery/corporate-g-6.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/anniversary-g-1.jpg">
+                    <img src="images/gallery/anniversary-g-1.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/anniversary-g-2.jpg">
+                    <img src="images/gallery/anniversary-g-2.jpg" alt="">
+                </a>
+
+                <a class="col-50" href="images/gallery/anniversary-g-3.jpg">
+                    <img src="images/gallery/anniversary-g-3.jpg" alt="">
+                </a>
+
+                <a class="col-50" href="images/gallery/anniversary-g-4.jpg">
+                    <div class="link-video"></div>
+                    <img src="images/gallery/anniversary-g-4.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/anniversary-g-5.jpg">
+                    <img src="images/gallery/anniversary-g-5.jpg" alt="">
+                </a>
+
+                <a class="col-25" href="images/gallery/anniversary-g-6.jpg">
+                    <img src="images/gallery/anniversary-g-6.jpg" alt="">
                 </a>
             </div>
         </div>
@@ -203,7 +216,20 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 <script src="scripts/pageController.js"></script>
 
+<script src="libs/baguetteBox/baguetteBox.js" async></script>
+<script src="libs/baguetteBox/highlight.min.js" async></script>
+
 <script>
+
+    window.onload = function () {
+        baguetteBox.run('.baguetteBoxOne');
+
+        if (typeof oldIE === 'undefined' && Object.keys) {
+            hljs.initHighlighting();
+        }
+    };
+
+
     //    function animationOut(i) {
     //    }
     //    function animationIn(i) {
