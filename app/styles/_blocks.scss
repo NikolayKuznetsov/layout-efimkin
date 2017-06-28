@@ -1393,10 +1393,10 @@ body {
 }
 
 .block--contacts {
-  padding: 60px 20px 20px;
+  padding: 100px 20px 20px;
   color: #438ef4;
   .context-box {
-    width: 600px;
+    width: 82%;
     margin: 0 auto;
   }
   a {
@@ -1456,15 +1456,15 @@ body {
   .views {
     .views-row {
       float: left;
-      margin-bottom: 20px;
+      margin-bottom: 4%;
       position: relative;
       max-height: 230px;
       max-width: 484px;
-      width: calc(33.333% - 14px);
+      width: calc(33.333% - 6%);
       overflow: hidden;
       &:nth-of-type(3n+2) {
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 9%;
+        margin-left: 9%;
       }
       .title {
         position: absolute;
