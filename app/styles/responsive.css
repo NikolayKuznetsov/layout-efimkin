@@ -419,6 +419,9 @@
     .block--contacts .phone-number {
       font-size: 28px; }
 
+  .block--portfolio .video-container, .block--contacts .video-container, .block--blog .video-container, .block--reviews .video-container {
+    display: none; }
+
   .block--corporate-two .title {
     font-size: 32px;
     margin: 32px 0; }

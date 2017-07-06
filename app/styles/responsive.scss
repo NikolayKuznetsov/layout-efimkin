@@ -633,6 +633,11 @@
       font-size: 28px;
     }
   }
+  .block--portfolio, .block--contacts, .block--blog, .block--reviews {
+    .video-container {
+      display: none;
+    }
+  }
 
   .block--corporate-two {
     .title {
