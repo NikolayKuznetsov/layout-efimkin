@@ -415,7 +415,8 @@ body.noscroll {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  z-index: 3; }
+  z-index: 3;
+  backface-visibility: hidden; }
   .header.scrolled {
     background-color: #fff;
     -webkit-box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.25);
@@ -1647,6 +1648,16 @@ body.noscroll {
     margin-right: 10px; }
   .block--contacts .link-pdf.last a {
     margin-bottom: 0; }
+  .block--contacts .video-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; }
+    .block--contacts .video-container video {
+      width: 100%;
+      min-height: 100%; }
 
 .block--portfolio {
   padding: 20px; }
@@ -1673,6 +1684,7 @@ body.noscroll {
       opacity: 0; }
     .block--portfolio .views .views-row img {
       opacity: 0.95;
+      min-width: 100%;
       -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
       transition: opacity 0.35s, transform 0.35s;
       -webkit-transform: scale3d(1.1, 1.1, 1);
@@ -1683,6 +1695,16 @@ body.noscroll {
       opacity: 0.6;
       -webkit-transform: scale3d(1, 1, 1);
       transform: scale3d(1, 1, 1); }
+  .block--portfolio .video-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; }
+    .block--portfolio .video-container video {
+      width: 100%;
+      min-height: 100%; }
 
 /*** Apollo ***/
 .effect-apollo {

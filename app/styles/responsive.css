@@ -412,6 +412,13 @@
     .block--contact .form {
       width: 100%; }
 
+  .block--contacts {
+    padding: 50px 20px; }
+    .block--contacts .context-box {
+      width: 100%; }
+    .block--contacts .phone-number {
+      font-size: 28px; }
+
   .block--corporate-two .title {
     font-size: 32px;
     margin: 32px 0; }

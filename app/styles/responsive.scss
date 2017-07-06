@@ -624,6 +624,16 @@
     }
   }
 
+  .block--contacts {
+    padding: 50px 20px;
+    .context-box {
+      width: 100%;
+    }
+    .phone-number {
+      font-size: 28px;
+    }
+  }
+
   .block--corporate-two {
     .title {
       font-size: 32px;
