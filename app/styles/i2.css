@@ -1,0 +1,109 @@
+/*** ПОРТФОЛИО И ФОТОАЛЬБОМ ***/
+
+.node-type-fotoalbom {
+margin: 0 !important;
+margin-left: 0 !important;
+}
+
+.node .field--name-field-fotografii {
+margin: 0 auto;
+}
+
+.page-portfolio #cboxContent article img {
+position: static;
+}
+
+.page-portfolio #cboxContent .node {
+display: table;
+}
+
+
+
+/*** ПОПАП ДЛЯ ФОТОГАЛЕРЕИ ***/
+
+.mfp-bg,
+.mfp-wrap {
+z-index: 99999 !important;
+}
+
+.mfp-bg {
+opacity: 0.95 !important;
+}
+
+
+
+/*** ФОТОГАЛЕРЕЯ ***/
+
+.block--portfolio .views-field-title a,
+.block--portfolio .views-field-field-image a,
+.block--portfolio .views-field-field-video a {
+color: #ffffff;
+display: block;
+position: relative;
+z-index: 1;
+}
+
+.block--portfolio .views-row .views-field-title {
+opacity: 0;
+}
+
+.block--portfolio .views-row:hover .views-field-title {
+opacity: 1;
+}
+
+.block--portfolio .views-field-title span,
+.block--portfolio .views-field-title span a {
+width: 100%;
+text-align: center;
+font-size: 17px;
+display: block;
+text-shadow: 0 0 3px #333333;
+}
+
+.block--portfolio .views-field-title span a {
+position: absolute;
+bottom: 0;
+padding-bottom: 10px;
+color: #fff;
+text-transform: uppercase;
+text-align: left;
+padding-left: 10px;
+font-size: 24px;
+}
+
+
+.block--portfolio .views-field-field-image img,
+.block--portfolio .views-field-field-video img {
+width: 110%;
+height: auto;
+}
+
+
+
+/*** ПОРТФОЛИО И ФОТОАЛЬБОМ ***/
+
+.node-type-fotoalbom {
+margin: 0 !important;
+margin-left: 0 !important;
+}
+
+.node .field--name-field-fotografii {
+margin: 0 auto;
+}
+
+.node .field--name-field-fotografii {display: table; width: 100%;}
+.node .field--name-field-fotografii li {float: left; margin: 1px;}
+.node .field--name-field-fotografii li a,
+.node .field--name-field-fotografii li img {display: block}
+
+#cboxContent article img {
+position: static;
+}
+
+#cboxContent .node {
+display: table;
+}
+
+#cboxLoadedContent {
+background: #000000 !important;
+}

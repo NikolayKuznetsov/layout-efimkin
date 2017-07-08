@@ -86,7 +86,7 @@
   }
 
   &.icon-popup-close {
-      $urlIconMenuMobileClosedWhite: '../images/icon-menu-mobile-closed.png';
+      $urlIconMenuMobileClosedWhite: '../images/icon-menu-mobile-closed--black.png';
       @include retina-image($urlIconMenuMobileClosedWhite, $urlIconMenuMobileClosedWhite, 21px, 21px);
   }
   &.icon-social-link {

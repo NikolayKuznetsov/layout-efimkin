@@ -1479,7 +1479,7 @@ body {
         margin-right: 9%;
         margin-left: 9%;
       }
-      .title {
+      .views-field-title {
         position: absolute;
         bottom: 0;
         padding-bottom: 10px;
@@ -1490,7 +1490,15 @@ body {
         padding-left: 10px;
         opacity: 0;
       }
-      img {
+      .views-field-title a {
+        color: #ffffff !important;
+      }
+      .views-field-field-image a {
+        display: block;
+        position: relative;
+        z-index: 1;
+      }
+      .views-field-field-image img {
         opacity: 0.95;
         min-width: 100%;
         -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -1499,10 +1507,10 @@ body {
         transform: scale3d(1.1, 1.1, 1);
       }
       &:hover {
-        .title {
+        .views-field-title {
           opacity: 1;
         }
-        img {
+        .views-field-field-image img {
           opacity: 0.6;
           -webkit-transform: scale3d(1, 1, 1);
           transform: scale3d(1, 1, 1);
@@ -1665,7 +1673,8 @@ body {
     @include transition('all 0.4s ease');
   }
   .container-popup-content {
-    background-color: #161616;
+    background-color: #fff;
+    color: #000;
     width: 400px;
     height: 320px;
     max-width: 90vw;
@@ -1702,7 +1711,7 @@ body {
         font-size: 18px;
         text-align: center;
         line-height: 125%;
-        color: #fff;
+        color: #000;
       }
       textarea {
         height: 80px !important;
@@ -1757,7 +1766,7 @@ body {
     .container-popup-content {
       width: 75%;
       height: 400px;
-      color: #fff;
+      color: #000;
       font-size: 16px;
       line-height: 125%;
       padding: 35px 20px 30px 20px;
